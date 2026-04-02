@@ -1,0 +1,52 @@
+What is the primary difference between a traditional AI model and a Generative AI model regarding output?,"Generative AI produces entirely new content, while traditional AI models are generally limited to predictions based on provided data sets."
+"In the student analogy, how is a traditional AI model compared to a school student?",It is like a student who answers exam questions by strictly recalling information from specific textbooks they were assigned.
+"In the university analogy, what characteristic defines the 'Generative AI' student?",The ability to apply learned concepts to generate creative answers for unpredictable or conceptual questions.
+What does the acronym GAN stand for in AI architecture?,Generative Adversarial Network.
+What is the primary specialty of Generative Adversarial Networks (GANs)?,"Creating hyper-realistic images for fields like art, fashion, and medical imaging."
+How do Diffusion Models improve the quality of AI-generated images?,They utilize iterative refinement to define and clear 'noise' from an image to produce high-quality pixels.
+Identify two prominent examples of Diffusion Models mentioned in the text.,DALL-E 3 and Stable Diffusion.
+What is the primary function of Variational Autoencoders (VAEs)?,They compress data to save space and then auto-generate the missing pixels or code to reconstruct it.
+"Beyond image generation, what scientific application is associated with Variational Autoencoders (VAEs)?",Drug discovery and detecting anomalies in datasets.
+How do Transformer architectures process large amounts of input data?,They break data into small 'chunks' or tokens and process them to find relationships and patterns.
+Which AI architecture is most commonly used for high-level text generation like GPT-4?,Transformer architecture.
+Define 'Synthetic Data' in the context of model training.,"Artificially generated data used to train models when real-world data is scarce, costly, or unavailable."
+What is the role of AlphaFold in the medical research field?,Predicting and creating realistic protein structures to revolutionize medical research.
+What term refers to the inputs or variables that a model uses to learn and recognize patterns?,Parameters.
+How does the number of parameters generally affect the capability of a Large Language Model (LLM)?,Increasing the number of parameters typically enhances the model's accuracy and its ability to answer complex queries.
+How many parameters were integrated into the GPT-3 model?,$175$ billion parameters.
+What is the approximate parameter count for the GPT-4 model mentioned in the session?,$1.6$ trillion parameters.
+"According to the transcript, how many parameters are integrated into the trending GPT-5 model?",More than $635$ billion parameters.
+Why are local consumer laptops insufficient for training large-scale LLMs from scratch?,They lack the massive computational power and GPU resources required to process trillions of parameters.
+What are 'Tokens' in the context of Generative AI processing?,"Small units of information, such as words, phrases, or characters, into which raw input is decomposed."
+The process of breaking complex input into manageable chunks for machine learning is called _____.,Tokenization.
+What is the significance of 'History' or 'Memory' in models like ChatGPT or Gemini?,It allows the model to understand the user's specific mindset and preferences to tailor future outputs.
+"In AI performance measurement, what does the term 'Hallucination' describe?","A state where the model provides incorrect, confused, or false information despite appearing confident."
+Term: Perplexity,Definition: A mathematical measure of uncertainty or how well a probability distribution predicts a sample.
+What is the target mathematical accuracy percentage for a well-trained AI model?,Above $90\%$.
+What is the purpose of 'Human Evaluation' in model testing?,Using human testers to provide diverse inputs and verify if the model's output aligns with human expectations.
+What hardware component is essential for providing the computational power needed for AI training?,GPU (Graphics Processing Unit).
+Approximately how much did the training for GPT cost in terms of hardware and infrastructure?,Approximately $\$1$ billion.
+What is the difference between 'Training' and 'Fine-tuning' for an average consumer?,"Training builds a model from scratch at high cost, while fine-tuning involves making small adjustments to an existing model."
+Name the platform mentioned as a primary source for accessing pre-trained models and datasets.,Hugging Face.
+Which platform is primarily used in this course for running Python code with GPU access?,Google Colab.
+Define 'Prompt Engineering'.,The practice of refining and crafting specific inputs to ensure the AI generates the most accurate and relevant output.
+How can a user leverage ChatGPT to improve their own prompts?,By asking the model to act as a prompt engineer and generate optimized prompts based on a provided scenario.
+What is 'Overfitting Risk' in model parameters?,A risk where a poorly trained model provides the exact input as output instead of generating new content.
+What are the three dimensions of resources required for large-scale AI training?,"Hardware, Time, and Cost."
+"In the processing cycle, what happens immediately after tokenization?","Processing occurs, where the model finds patterns and relationships within the tokens."
+How do GANs generate new images through their training process?,Through competitive training between two networks that refine the realism of the output.
+What term describes the objective comparison of different models' capabilities?,Benchmark tests.
+Why is 'Continuous Improvement' necessary for AI models like ChatGPT?,To ensure the model's data remains up to date and to improve its predictive and generative accuracy over time.
+How does Generative AI assist in autonomous vehicle development?,By using synthetic data to accelerate training and testing for various driving scenarios.
+Concept: Democratization of AI,Definition: Making advanced AI models and tools accessible to the general public via platforms like Hugging Face.
+What is the ethical responsibility of students using Generative AI?,Using the tool for interactive learning and understanding rather than just for cheating on assignments.
+What is the function of the 'Discriminator' in a GAN architecture?,It evaluates the authenticity of the generated content to push the generator toward higher realism.
+How does fine-tuning a model benefit specific industries like Chemistry or Physics?,It allows professionals to train a general model on specialized knowledge relevant to their specific field.
+"In Google Colab, where can a user change the settings to access GPU power?",In the 'Run time' or 'Change runtime type' menu.
+What does the text identify as a 'stunning' tool for creating art from simple text prompts?,Midjourney.
+How long does full-scale training for enterprise-level models typically take?,Several weeks to months.
+Why is the 'Iterative Refinement' process used in Diffusion models?,To progressively destroy and then reconstruct image pixels until they achieve high clarity.
+What is the primary goal of the HEC Generative AI Training Program mentioned in the session?,"To introduce students to AI terminology, model creation, and the practical use of AI tools."
+What is meant by 'Contextual Output' in Generative AI?,Output that is determined by the specific context provided by the user's prompt and past history.
+What are 'Hyper-realistic' images in the context of GANs?,Images so detailed and life-like that it is difficult to distinguish them from human-made or real-world captures.
+What is the relationship between model complexity and computational demand?,"As a model becomes more complex (higher parameters), the demand for electricity, hardware, and cooling increases significantly."
