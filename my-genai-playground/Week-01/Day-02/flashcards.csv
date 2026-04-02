@@ -1,0 +1,75 @@
+How many weeks is the duration of the HEC Generative AI training program?,6 weeks
+What is the primary goal of the HEC GenAI training program regarding Pakistan's economy?,To drive national prosperity and economic growth through high-value skills.
+Generative AI is often described as AI _____ due to its creative capabilities.,2.0
+What type of AI allows for 'autonomous actions' using generative concepts?,Agentic AI
+"Generative AI creates new content such as images, videos, music, and _____.",Code
+Which US-based organization provides the financial sponsorship to keep the training program free of charge?,Alif USA Endowment Fund
+What is the mandatory requirement at the end of the 6-week program to earn a certificate?,Passing the Grand Quiz
+How many total weekly quizzes are conducted during the HEC GenAI training?,5
+"The training schedule consists of main sessions on Sunday and Monday, followed by _____ sessions Tuesday through Friday.",Practice
+What is the duration of the daily practice sessions held from Tuesday to Friday?,1 hour
+"According to the transcript, 86% of global businesses are expected to transform using _____ by 2030.",AI
+The total economic contribution of the AI ecosystem is projected to reach $16 trillion by the year _____.,2030
+The _____ rule suggests businesses should focus on the 20% of tasks that provide 80% of the value when adopting AI.,80/20
+What is the first step recommended for businesses when starting their AI implementation journey?,"Focus on high-frequency, repetitive, and time-consuming tasks."
+Which specific AI tool is highly recommended in the training for writing professional proposals and reports?,Claude
+"What technology is used to integrate dynamic, private data into a generative AI model?",RAG (Retrieval-Augmented Generation)
+Which tool is recommended for automating meeting transcripts and identifying action items?,Otter.ai (or Fireflies)
+Term: API,Definition: A set of rules that allows two different software applications to communicate and exchange data.
+"In the restaurant analogy for APIs, who represents the 'Customer'?",The user or application making a data request.
+"In the restaurant analogy for APIs, what does the 'Waiter' represent?",The API (Application Programming Interface).
+"In the restaurant analogy for APIs, what does the 'Kitchen/Chef' represent?",The Server that processes the request.
+What is the token or code shared by a platform to allow a developer to access their AI models?,API Key
+What is a major advantage of using an API instead of building a service from scratch?,It is cost-effective and significantly increases development speed.
+What is a potential disadvantage of relying on third-party APIs?,Downtime on the provider's server can cause the application to stop working.
+Generative AI is a specific subset of which broader machine learning category?,Deep Learning
+Machine Learning is a subset of the broader field of _____.,Artificial Intelligence (AI)
+Which type of learning involves training a model on 'labeled' data with known outcomes?,Supervised Learning
+Which type of learning involves a model finding patterns in 'unlabeled' data?,Unsupervised Learning
+What type of learning relies on 'trial and error' and feedback (like thumbs up/down)?,Reinforcement Learning
+Deep Learning uses artificial _____ networks to mimic the human brain's decision-making process.,Neural
+What does the 'L' stand for in the first letter of 'LLM'?,Large
+The architecture considered the 'brain' of a generative AI model is called the _____.,Transformer
+Which website is referred to as the 'model market' where developers find open-source AI models?,Hugging Face
+What is the name of the tool used to generate AI-powered presentations quickly?,Gamma
+Which platform is an operational partner that provides a network of mentors and teaches students about global scholarships?,iCodeGuru
+The initiative aimed at teaching science to over 1 million people in local languages is called _____.,Science Kune
+What is the purpose of 'Stemming' and 'Lemmatization' in AI text processing?,Reducing words to their root forms to make text processing more efficient.
+"A model that predicts continuous values, such as weather or stock prices, is called a _____ model.",Regression
+What is 'Classification' in the context of supervised learning?,"The process of categorizing discrete data into specific groups, like spam or non-spam."
+What is 'Clustering' in the context of unsupervised learning?,"The automatic grouping of similar data points, such as faces in Google Photos."
+True or False: You must be a programmer or engineer to learn and implement generative AI solutions.,False
+What is 'Low-code' or 'No-code' AI?,Tools that allow users to develop AI solutions without writing manual programming code.
+Why is 'Prompt Engineering' considered a critical skill in the GenAI space?,"It determines the quality, accuracy, and relevance of the AI's output."
+Which business department can use AI to sort resumes and find the best job candidates automatically?,Human Resources (HR)
+How can AI improve customer service for mid-sized businesses?,By automating responses to common complaints and providing instant gratification.
+What is the benefit of the 'Buddy System' created through the program's WhatsApp groups?,"It allows students to communicate daily, share ideas, and help each other learn."
+"According to industry experts, AI can improve coding efficiency by approximately what percentage range?",40% to 45%
+What is the term for adjusting a pre-trained model to perform a specific task more accurately?,Fine-tuning
+"In the context of the training, why is 'Critical Thinking' more important than ever with the rise of AI?",Sharp thinking is required to provide the complex variables needed for effective AI prompts.
+Which tool is used to automate workflows and connect different apps like CRM and email?,Zapier (or Make.com)
+A PhD student in chemistry used GenAI skills to solve a problem in 3 days that she had struggled with for years. What does this demonstrate?,The power of GenAI to enable domain-specific problem solving.
+What is the estimated direct contribution of GenAI to the global economy by 2030?,$1.8 trillion
+How does Generative AI assist in market research?,By performing research and providing insights in minutes that used to take days or weeks.
+Which partner organization helps Pakistani entrepreneurs turn ideas into fundable startups?,Aspire Pakistan
+What is 'Speech to Text' generation?,A model that converts spoken audio into written text.
+What is the difference between 'Natural Intelligence' and 'Artificial Intelligence'?,"Natural intelligence is biological (human), while artificial intelligence mimics human decision-making in computers."
+How many communities were created on WhatsApp to accommodate the HEC GenAI trainees?,4
+What is the purpose of the 'General' WhatsApp group in each community?,"To allow participants to share ideas, accomplishments, and relevant training thoughts."
+"According to the transcript, AI is like a _____ for the mind, helping humans solve bigger problems faster.",Calculator
+Why is 'Testing' crucial when implementing Agentic AI for customer-facing tasks?,To ensure the autonomous actions are accurate and do not cause 'chaos' or errors for the user.
+Which tool is mentioned for intelligent data sorting and creating dashboards?,PowerBI (or Notion AI)
+What is 'Knowledge Synthesis' in GenAI?,The ability of AI to summarize and combine information from vast amounts of data.
+What is the 48-hour event at the end of the program where students build applications?,Hackathon
+Why is it important for faculty members to encourage GenAI use instead of banning it?,It is the way of the future and essential for students to remain competitive.
+What is the core purpose of 'Park Angels'?,To provide angel funding and mentorship to early-stage Pakistani startups.
+Which technology allows an AI model to maintain 'memory' of previous interactions in a single chat session?,Iteration/Context Window
+"According to the speaker, what is the 'only way' for Pakistan to grow economically better over time?",By earning from global clients through high-value digital skills.
+What is the primary risk of using 'untested' AI agents in a business environment?,"Governance and risk management issues, such as errors affecting customers."
+How can AI help in the agriculture sector?,By educating farmers and providing diagnostics to increase crop productivity.
+What is the term for a GenAI model's ability to 'hallucinate' or create false information?,Errors/Misinformation (requiring human review).
+The process of getting 'Buy-in' from leadership to implement AI is called _____ management.,Change
+Which free tool is primarily used for 'Text to Image' generation in the examples given?,Midjourney (or Gemini/DALL-E)
+"What is the name of the platform that hosts a collection of free, pre-trained AI models for various tasks?",Hugging Face
+"In the program statistics, what percentage of previous participants launched their own startups after training?",20%
+What is the specific name of the AI training session series for Pakistan mentioned by the host?,Pak Generative Training Series
