@@ -1,0 +1,64 @@
+What is the full form of the acronym API?,Application Programming Interface.
+"In general terms, an API acts as a(n) _____ between two separate programs.",Messenger.
+Term: Client,Definition: The program or user that requests information or resources from another system.
+Term: Server,"Definition: The program that receives a request, processes it, and provides the necessary response or resource."
+"In the restaurant analogy for APIs, who represents the 'Client'?",The Customer.
+"In the restaurant analogy for APIs, what represents the 'API' itself?",The Waker (or Server staff).
+"In the restaurant analogy for APIs, what represents the 'Server' or resource holder?",The Kitchen (or Chef).
+What is the communication sent from a Client to a Server via an API called?,A Request.
+What is the communication sent from a Server back to a Client via an API called?,A Response.
+What is the technical term for the specific URL or address used to send an API request?,End Point.
+Which text-based format is standard for exchanging data between programs via APIs?,JSON (JavaScript Object Notation).
+How is data organized within a JSON object?,In key-value pairs.
+"In the context of JSON, what data type must the 'key' always be?",A string (enclosed in quotes).
+How does Python represent a JSON-like structure within its own native data types?,As a dictionary.
+What is the primary function of an API key?,To act as a password that authenticates and identifies the client to the server.
+How does an API key help service providers manage resource usage?,It tracks exactly how many requests a specific client has made to the server.
+What security risk is associated with 'hard-coding' an API key directly into source code?,The key is exposed in plain text to anyone who can view the code.
+APIs that are accessible without any password or key are called _____ APIs.,Public.
+Why should developers avoid uploading API keys to platforms like GitHub?,Public repositories can be scanned by others to steal and misuse the keys.
+"In Google Colab, where should sensitive API keys be stored?",In the 'Secrets' tab (the key icon on the left sidebar).
+What is the naming convention for Environment Variables such as API keys?,All uppercase letters with underscores separating words.
+"In local development, which specific file type is used to store environment variables privately?",A .env file.
+Which Python module is required to retrieve environment variables from a local system?,The os module.
+"In Google Colab, what is the method used to access a secret named 'GROQ_API_KEY'?",userdata.get('GROQ_API_KEY').
+"When using a .env file locally, which function is typically called to load variables into memory?",load_dotenv().
+What action should be taken immediately if an API key is accidentally shared or leaked?,Revoke the old key on the provider's website and generate a new one.
+How do JSON values differ from JSON keys regarding quotation marks?,"Keys must always be in quotes, whereas numeric values do not require them."
+What is the purpose of 'Control Access' provided by API keys?,Ensuring that only authorized users with valid passwords can use the server's resources.
+How many MCQ-based questions will the program quiz contain?,60 questions.
+What is the weekly deadline for completing the program's quizzes?,Sunday night at 11:00 PM.
+"Besides security, why might an API provider use keys to identify different clients?",To differentiate between multiple users sending requests to the same kitchen/server.
+Which Python library is commonly used to send HTTP requests to an API endpoint?,The requests library.
+Term: Environment Variable,"Definition: A variable whose value is set outside the program, used to configure software behavior without changing code."
+How does Google Colab's 'Secrets' feature protect code sharing?,"The code can be shared with others, but the actual secret values remain private to the owner's account."
+Which platform was mentioned for providing free open-source models for API testing?,Groq.
+What is a major advantage of using an API over a web interface like the ChatGPT chat box?,APIs allow for the programmatic integration of AI models into custom applications.
+"When retrieving a secret, the name used in the code must _____ the name defined in the secrets manager.",Exactly match.
+What is the standard format for the response body of most Generative AI APIs?,JSON.
+"In the context of API security, what does 'rotating' a key refer to?",Periodically replacing old keys with new ones to minimize the impact of a potential leak.
+How can a developer quickly view the data structure of a public API without writing code?,By entering the API endpoint URL directly into a web browser.
+"In JSON notation, what characters are used to define an array or list?",Square brackets [].
+"In JSON notation, what characters are used to define an object?",Curly braces {}.
+What is the typical consequence of a public API having no authentication requirement?,It often has very strict rate limits on how many requests can be sent per minute.
+"In Python, which response object method parses JSON data into a dictionary?",.json().
+What resource provides the necessary information on how to format requests for a specific API?,Documentation.
+"According to the transcript, why is Python chosen for this Generative AI program?",It is an easy-to-learn language compared to alternatives like C++ or Java.
+When are the practical Python coding sessions held for this training program?,Sundays.
+"In a web application, what represents the 'Front End' of an AI model?",The user interface where messages are typed and displayed.
+"In an API interaction, what represents the 'Back End'?",The remote server and model that process logic and generate data.
+"In a .env file, what character separates the variable name from its value?",The equals sign (=).
+What occurs if a client attempts to use an expired or deleted API key?,The server returns an authentication error and denies the request.
+Which import statement is used in Google Colab to access the secret storage module?,from google.colab import userdata.
+"In Python, what is the function used to retrieve the value of an environment variable?",os.getenv().
+"In the code example provided, what specific model capability was tested using the Groq API?",Generating random facts about animals (cats and dogs).
+What is the purpose of the 'Request' module in Python code?,To facilitate sending data and commands to a web URL and receiving the result.
+Why is 'Usage Tracking' important for developers using paid APIs?,It helps monitor costs and ensure the application does not exceed billing limits.
+Term: Authentication,"Definition: The process of proving an identity, typically by providing a valid API key."
+Term: Authorization,Definition: The process of determining what specific resources or actions an identified user is allowed to access.
+What character is used to separate different key-value pairs within a single JSON object?,"A comma (,)."
+How do developers typically hide sensitive files like .env from version control systems?,By listing the filename in a .gitignore file.
+The address 'api.github.com' is an example of an API _____.,End Point.
+True or False: Public APIs never provide information about private users.,True (unless authorized via a private key).
+What is a 'Token' in the context of API authentication discussed in the session?,Another term for a unique identifier or API key used for connection.
+Why is the API key described as a 'unique number' or 'unique string'?,To ensure it distinguishes one specific user's account from all others.
