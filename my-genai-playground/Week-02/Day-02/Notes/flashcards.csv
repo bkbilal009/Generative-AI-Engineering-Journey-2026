@@ -1,0 +1,50 @@
+What is the primary advantage of using Google Colab for Python development?,It is a cloud-based IDE that allows users to write and execute Python code entirely online through a Google account.
+On what specific interface is the Google Colab environment based?,Jupyter Notebook.
+What is the core difference between a CPU and a GPU regarding task execution?,"A CPU handles sequential tasks one after another, whereas a GPU is designed for parallel processing of multiple tasks simultaneously."
+Why is a GPU (Graphics Processing Unit) essential for AI model deployment?,It provides the specialized parallel processing power and memory width required to handle heavy AI computations efficiently.
+"In the context of Python, what are 'libraries'?","Collections of pre-written code that provide specific functionality, allowing developers to perform complex tasks without writing code from scratch."
+What is the difference between 'downloading' and 'importing' a library in Python?,"Downloading installs the library onto the system/IDE, while importing calls the library into the current script to make its functions available."
+"In Python code, what is the purpose of the 'as' keyword (e.g., 'import numpy as np')?",It is used to create an alias or shorthand name for a library to make coding more efficient.
+Which Python library is specifically designed for handling numerical data and computations?,NumPy.
+What is the primary use of the Pandas library in Python development?,"Handling and manipulating structured data, such as CSV files and data tables."
+What distinguishes a Python 'module' from a 'library'?,"A module is a single file containing Python code, while a library is a larger collection of multiple modules."
+What is Streamlit?,An open-source Python library used to turn Python scripts into interactive web applications with minimal effort.
+How is Hugging Face metaphorically described in the AI development community?,It is described as the 'YouTube for AI models.'
+What is a Hugging Face 'Space'?,"A platform area on Hugging Face where users can host, deploy, and share their AI applications globally."
+What are the two most critical files required to deploy a Streamlit app on Hugging Face?,The main Python script file (typically `app.py`) and a requirements file (`requirements.txt`).
+What is the function of the `requirements.txt` file in an AI application deployment?,It lists all the external libraries and dependencies the application needs to run so the server can install them automatically.
+"Which file in a Hugging Face Space is used to configure the SDK (e.g., Streamlit or Gradio) and its version?",The `README.md` file.
+Which general-purpose license is recommended for basic AI applications created in Hugging Face Spaces?,The MIT License.
+"In the deployment workflow, why is code tested in Google Colab before moving to Hugging Face?",To ensure the code logic is correct and functional in a controlled environment before making it a public web app.
+How does an LLM (like ChatGPT or Gemini) function as a 'mentor' in the app-building process?,It generates initial code based on prompts and helps debug errors encountered during testing and deployment.
+What is the standard developer alias for the Streamlit library in Python scripts?,The alias `st`.
+What is 'Prompt Engineering' in the context of creating generative AI applications?,"The skill of crafting precise, clear instructions for an AI model to generate high-quality code or content."
+"If a Hugging Face app shows a 'Module Not Found' error, what is the most likely fix?",Add the missing library name to the `requirements.txt` file.
+What is the role of the 'math' module in a Python-based calculator application?,"To provide advanced mathematical functions like square root (`sqrt`), exponents, and logarithms."
+How can you share a Hugging Face application with a friend or colleague?,By sharing the unique global URL generated once the app is successfully deployed in a Public Space.
+What is the purpose of the 'Matplotlib' library in Python applications?,"It is used for data visualization and creating various types of static, animated, or interactive plots."
+What determines whether a user should select 'Public' or 'Private' for their Hugging Face Space?,The desire to either share the app globally (Public) or restrict access to specific authorized users (Private).
+Process: What is the sequence of the 'Idea to Deployment' flow taught in the session?,Idea Creation $\rightarrow$ Code Generation (via LLM) $\rightarrow$ Testing (Google Colab) $\rightarrow$ Deployment (Hugging Face).
+Why might a developer use the 'Seaborn' library instead of 'Matplotlib' for data visualization?,To create more aesthetically pleasing and enhanced statistical graphics.
+"In a Streamlit app, which file contains the logic for defining buttons, sliders, and the layout?",The `app.py` file.
+What does 'Fine-Tuning' refer to when working with AI models on Hugging Face?,Adapting a pre-trained model for a specific task or application with minimal additional training effort.
+What platform acts as a professional portfolio for programmers to version-control and store their code?,GitHub.
+What is 'Kaggle' often used for by AI engineers?,"Accessing datasets, participating in machine learning competitions, and finding freelance opportunities."
+Which SDK is the default choice for new Hugging Face Spaces if not manually changed to Streamlit?,Gradio.
+How do you 'Stop' or 'Pause' a Space on Hugging Face to manage server resources?,Go to the 'Settings' tab of the Space and select the option to pause or stop the instance.
+What should you do if an LLM generates code that contains an error you cannot solve manually?,"Copy the error message and paste it back into the LLM, asking it to identify the cause and provide corrected code."
+"In the 'Atomic Habit Tracker' app example, how were habits tracked visually?",Using graphical charts (plots) to show the progress of different habits over time.
+What is the primary benefit of the 'online' nature of Google Colab?,It saves hardware resources on the user's local machine and keeps all work securely saved in the cloud.
+"Cloze: To convert Python code into a professional-looking web dashboard, developers often use the _____ library.",Streamlit
+What is the 'Magic Middle' in the generative AI application development process?,"The phase where Python code is transformed into a live, globally accessible web application using Hugging Face."
+Why is it recommended to maintain profiles on GitHub and Kaggle for AI careers?,They serve as a professional portfolio and proof of technical competence in programming and data science.
+How does Streamlit handle the conversion of Python code to a website differently than traditional web development?,"It allows developers to create front-end elements directly using Python syntax without needing HTML, CSS, or JavaScript."
+What is the significance of '1.53.1' in the context of Streamlit configuration?,It denotes a specific version of the Streamlit library to ensure application stability and compatibility on the host server.
+"In the currency converter application, how does the app determine the conversion rates?",The rates are typically defined within the Python code logic or fetched from an external API (as suggested in advanced tasks).
+What is the function of 'Anaconda Navigator'?,A desktop GUI that allows users to manage Python environments and launch various IDEs like Jupyter Notebook offline.
+Which file in Hugging Face serves as the 'Home' or 'Documentation' page for the Space?,The `README.md` file.
+How do you modify the UI colors or button styles in a Streamlit app?,By providing specific UI instructions (like 'modern style' or 'neon colors') to an LLM to generate updated CSS or themed Streamlit code.
+What is a 'Pre-trained model'?,An AI model that has already been trained on a massive dataset and is ready to be used or fine-tuned for specific tasks.
+"In Python, what is 'interpeter' behavior?","The execution of code line-by-line, which is how Python processes scripts."
+What is the 'Embed this Space' feature on Hugging Face used for?,To generate an iframe or HTML snippet that allows the AI app to be displayed within another external website.
+Why is it important to use clear 'Human Language' prompts when using ChatGPT for coding?,Because the AI relies on the quality and specificity of the user's instructions to produce functional and relevant code.
