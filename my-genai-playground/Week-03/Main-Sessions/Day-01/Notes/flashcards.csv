@@ -1,0 +1,60 @@
+What is the primary function of Generative AI models?,"Generative AI models create new data, such as text, images, or code, by mimicking the patterns found in their training datasets."
+"In the context of machine learning, what is Google Colab?",It is a cloud-based environment provided by Google that allows users to run heavy AI models using hardware accelerators like GPUs.
+What role does Hugging Face play in the AI community?,"Hugging Face serves as a community platform for hosting, sharing, and discovering pre-trained models, datasets, and libraries."
+Hugging Face _____ are used to deploy and share machine learning applications with the public.,Spaces
+What is Gradio?,Gradio is a Python-based UI framework used to create front-end interfaces and public links for machine learning applications.
+How does the 'waiter' analogy describe the function of an API?,The API acts as a waiter that carries requests from the user to the backend server and brings the processed response back.
+Why is Groq frequently used in AI development?,Groq provides fast and efficient APIs for running Large Language Models (LLMs) without needing heavy local hardware.
+Define 'Prompt Engineering' in the context of Large Language Models.,"It is the art of crafting specific, detailed instructions to ensure an LLM produces the desired output without hallucinating."
+What is the specific purpose of the 'requirements.txt' file when deploying to Hugging Face?,It lists all the necessary Python libraries that the hosting environment must install to run the application correctly.
+The process of breaking down text into chunks and then into vectors for a model to process is known as _____.,Tokenization
+What is the difference between training a model from scratch and fine-tuning a model?,"Training involves building a model from zero, while fine-tuning adjusts an existing pre-trained model using a smaller, specific dataset."
+Which Python library is essential for accessing and utilizing pre-trained models from the Hugging Face repository?,The Transformers library.
+What is the risk of providing a vague prompt to an LLM?,"A vague prompt can lead to model hallucinations, where the AI provides incorrect or irrelevant information."
+"In Google Colab, what should a user do if their application code crashes due to hardware limitations?",The user should switch the runtime type to a hardware accelerator like a GPU.
+What is the standard name for the main Python file required for deployment on Hugging Face Spaces?,app.py
+How does the use of 'Secret Keys' or 'Access Tokens' benefit API security?,They allow software to authenticate and connect to third-party services like Hugging Face or Groq without exposing credentials.
+Why might a developer prefer Hugging Face over local deployment for sharing an app?,"Local deployment is restricted to the developer's machine, whereas Hugging Face provides a persistent public URL."
+What distinguishes the 'Pipeline' function in the Transformers library?,It provides a simple way to use pre-trained models for specific tasks like translation or sentiment analysis with minimal code.
+Concept: Zero-shot Learning,Definition: A model's ability to perform a task without having received any specific training examples for that task.
+What is a major limitation of the free tier for AI inference on platforms like Hugging Face?,The free tier often has usage limits based on compute time or the number of images generated per month.
+"In prompt engineering, why is it useful to ask an LLM to 'act as a professional developer'?","It sets a specific persona that guides the model to produce higher-quality, production-level code."
+What is 'scraping' in the context of real-time AI data retrieval?,It is the process of extracting live information from websites so a model can provide up-to-date responses.
+How does 'Vibe Coding' differ from traditional software development?,Vibe coding focuses on high-level logic and using AI to generate code rather than manually typing out syntax.
+Which file is used to store metadata and descriptions for a Hugging Face Space?,README.md
+Why is it important to practice resolving errors while building smaller AI applications?,Error resolution skills are necessary to handle the increased complexity of managing multiple models in larger applications.
+How can a developer use LLMs to improve their own prompts?,A developer can provide their goal to an LLM and ask it to generate a more effective and detailed prompt for another model.
+What is the primary advantage of using the Groq API for text generation tasks?,It offers high-speed inference and efficiency for Large Language Models compared to traditional cloud providers.
+Which model type is required to convert a text description into a visual image?,A Text-to-Image model.
+How does Hugging Face's 'Inference API' differ from downloading a model locally?,"The Inference API runs the model on Hugging Face's servers, whereas local execution requires the model to be stored on the user's hardware."
+"In application development, what is 'Back-end' logic?","It is the part of the software that handles data processing, model execution, and communication with APIs."
+Why is 'Data Cleaning' a critical step before fine-tuning an AI model?,"Cleaning ensures the data is accurate and correctly formatted, which prevents the model from learning incorrect patterns."
+Term: Hallucination,Definition: A phenomenon where an AI model generates confident but false or illogical information. Example: A model making up a non-existent historical date.
+What is the role of an 'AutoTokenizer' in the Hugging Face library?,It automatically selects the correct tokenization method corresponding to the specific pre-trained model being used.
+Why should a developer save their API key immediately after generating it?,Most platforms only display the API key once for security reasons and will not show it again if lost.
+What is the benefit of using the 'Open Weather API' for weather-related applications?,"It provides standardized, real-time meteorological data that can be integrated into custom apps via API calls."
+"In Gradio, what does the 'public=True' parameter in the 'launch()' function do?",It generates a temporary public URL that allows anyone to access the local application through the internet.
+How does 'Augmented Generation' improve model responses?,It combines a model's existing knowledge with external retrieved data to create more accurate and context-aware answers.
+What is the primary function of the 'PyTorch' library in AI development?,It is an open-source machine learning framework used for building and training neural networks.
+Which specific Hugging Face model was used in the session for English-to-Urdu translation?,The Helsinki-NLP model.
+What determines if a model should be accessed via API rather than downloaded in Google Colab?,"If the model's size exceeds the available memory (RAM/Disk) of the environment, accessing it via API is more feasible."
+How does Gradio's UI compare to traditional web development with HTML/CSS?,"Gradio allows developers to create functional UIs using only Python code, bypassing the need for separate HTML or CSS files."
+What is 'Reinforcement Learning' in the context of AI training?,It is a training method where a model learns to make decisions by receiving rewards or penalties based on its actions.
+"In a Hugging Face Space, what is 'Building' phase?",It is the stage where the platform installs dependencies from 'requirements.txt' and prepares the container to run the app.
+Why is 'Time Complexity' still relevant when using AI to write code?,"While AI can generate code, human developers must still optimize it to ensure it runs efficiently within acceptable time limits."
+What is the 'OpenCV' library typically used for in Python?,"It is used for image processing and computer vision tasks, such as matrix manipulation of image pixels."
+Concept: Matrix (in Image Processing),Definition: A rectangular array of numbers where each element represents the intensity or color value of a specific pixel in an image.
+How can a developer use a 'System Prompt' to control an LLM?,"It provides high-level instructions that define the model's behavior, tone, and constraints throughout a conversation."
+What is the advantage of 'Docker' for deploying AI applications?,"It packages an application and its dependencies together, ensuring it runs consistently across different computing environments."
+Why would a developer use 'DeepSeek' or 'Gemini' as alternatives to ChatGPT?,"Different models may have more up-to-date information, different training techniques (like Reinforcement Learning), or better performance for specific tasks."
+"In the 'waiter' analogy, what represents the 'Chef'?",The backend server or the AI model that processes the data and generates the result.
+What is the primary metric for success in a 'Hackathon' mentioned in the session?,"The completion and submission of a functional, original AI project within a team-based setting."
+Why is it important to ensure a model is 'Open Source' before using it in a project?,"Open-source models allow for free usage, modification, and hosting without the legal or financial restrictions of proprietary models."
+What is the purpose of 'Inference' in a machine learning workflow?,"Inference is the stage where a trained model is used to make predictions or generate outputs based on new, unseen data."
+How does the 'AutoModelForSequenceToSequenceLM' class work in Hugging Face?,"It automatically loads the appropriate architecture for tasks where one sequence is transformed into another, such as translation."
+What is the first step in setting up a new project in Hugging Face Spaces?,"Creating a new Space and selecting the appropriate SDK, such as Gradio or Streamlit."
+Why is 'Hardware Acceleration' crucial for Text-to-Image models?,Generating images involves complex mathematical calculations that are processed significantly faster by a GPU than a standard CPU.
+Term: SDK (Software Development Kit),Definition: A collection of software tools and libraries that developers use to create applications for specific platforms or frameworks.
+"In prompt engineering, what is 'few-shot prompting'?",Providing a few examples of input-output pairs to help the model understand the desired format or task.
+What is a 'Tensor' in libraries like PyTorch?,A multidimensional array of numbers that serves as the fundamental data structure for building and training neural networks.
+What happens to a Gradio link if the Google Colab session is terminated?,The public link will become inactive and the application will no longer be accessible.
