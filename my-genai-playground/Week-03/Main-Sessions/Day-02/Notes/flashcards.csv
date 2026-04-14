@@ -1,0 +1,50 @@
+What is the primary difference between model training and fine-tuning?,"Training builds a model from scratch, while fine-tuning adjusts an existing pre-trained model for specific needs."
+Which neural network type is specifically effective for processing grid-pattern data like images?,Convolutional Neural Networks (CNN).
+List three main benefits of fine-tuning a generic AI model.,"Increased accuracy, higher relevance to specific tasks, and improved overall performance."
+"In the context of data cleaning, why must duplicate records be removed?",To prevent the model from learning redundant information and developing unintended bias.
+How should missing numeric values in a dataset be handled during the cleaning process?,"By filling them with a suitable value, such as the dataset average, or assigning them as 'none'."
+Why is it essential to convert data types like 'strings' into 'integers' for numeric values?,Models require numerical types to perform the mathematical operations necessary for training.
+Term: Data Normalization,"Definition: The process of scaling numerical data to fall within a specific range, such as $0$ to $1$."
+What is the potential consequence of failing to handle outliers in a training dataset?,Outliers can distort statistical averages and negatively impact the model's accuracy.
+Name two standard Python libraries used for data cleaning tasks.,NumPy and Pandas.
+Which specialized Python libraries are mentioned for Natural Language Processing (NLP) tasks?,NLTK and SpaCy.
+Process: What is the first step in the five-step fine-tuning workflow?,Finding and preparing a domain-specific dataset.
+Process: What is the second step in the five-step fine-tuning workflow?,Selecting a pre-trained model to serve as the base.
+Process: What is the third step in the five-step fine-tuning workflow?,Conducting the training and performing validation checks.
+Process: What is the fourth step in the five-step fine-tuning workflow?,Saving the fine-tuned model for future deployment.
+Process: What is the fifth and final step in the five-step fine-tuning workflow?,Using the customized model for its intended application.
+Why is GPU hardware preferred over a CPU for training Generative AI models?,GPUs process the massive parallel computations required for deep learning significantly faster than CPUs.
+Identify three specific text elements that should be removed from social media data during NLP cleaning.,"URLs, @mentions, and hashtags."
+"In sentiment analysis fine-tuning, what is the purpose of generating a 'Polite Response'?",To transform raw sentiment detection into an actionable and appropriate customer service interaction.
+How does fine-tuning a generic LLM benefit a brand's marketing efforts?,"It aligns the model's output with the brand's specific tone, voice, and marketing guidelines."
+The concept that the quality of AI output is dependent on the quality of the input data is known as _____.,"Garbage In, Garbage Out."
+"What should be done with irrelevant data columns, such as 'Customer ID', before model training?",They should be dropped or removed to simplify the dataset and improve focus.
+"In categorical encoding, what is a standard numerical representation for 'True' and 'False'?",Assigning $1$ for True and $0$ for False.
+Why should a 'Date of Birth' field be validated during data cleaning?,"To ensure values are logically sound, such as ensuring the date is in the past and not the future."
+What is the primary function of a 'Tokenizer' in the fine-tuning process?,It converts raw text into numerical units or tokens that the model can interpret.
+Concept: Feature Extraction,"Definition: The process by which a model identifies key characteristics, such as edges in an image, to facilitate classification."
+Why are general pre-trained models often insufficient for specialized medical or banking tasks?,"They are trained on broad data and lack the specific accuracy required for niche, high-stakes domains."
+"How does standardizing text to a single case (e.g., lowercase) improve model performance?","It ensures the model treats variations like 'Male', 'male', and 'MALE' as the same identical value."
+What range is commonly used when scaling image grid values for machine learning models?,$0$ to $255$.
+When is it more appropriate to 'drop' a row rather than fill a missing value?,"When a significant number of columns in that specific row are empty, making the data unreliable."
+Concept: Object Detection,Definition: A computer vision task that identifies both the presence and location of objects within an image.
+Concept: Image Segmentation,Definition: The process of partitioning a digital image into multiple segments to simplify or change its representation.
+Why should dates be stored as 'date objects' rather than 'strings' in a clean dataset?,To allow for temporal calculations and to ensure the data is recognized in a standard date format.
+"In the fine-tuning demonstration, which browser-based tool provided the necessary GPU access?",Google Colab.
+How does fine-tuning improve 'Relevance' for a specific business use case?,"It trains the model on data specific to that business, making its responses more targeted and useful."
+What is the goal of removing special characters and emojis during text data cleaning?,To remove 'noise' that might interfere with the model's ability to understand the core text sentiment.
+"In machine learning, what does 'Batch Size' signify?",The number of training samples processed in one iteration before the model's parameters are updated.
+What hardware limitation causes an AI model to take several minutes to generate a single image?,Running the model on a CPU instead of a dedicated GPU.
+What is 'Inference' in the AI development lifecycle?,The stage where a trained model is used to generate predictions or content based on new input.
+Why is providing specific context and requirements essential when using an LLM to generate code?,It ensures the code is compatible with the intended environment and includes all necessary steps.
+"Which Python library is specifically designed for handling large, multi-dimensional arrays and matrices?",NumPy.
+Fine-tuning a model allows a company to implement custom _____ guidelines for content generation.,Marketing or branding.
+How can a developer verify the improvement of a model after the fine-tuning process?,By comparing the model's outputs against the same prompts before and after the training.
+What is the primary risk of fine-tuning a model on 'dirty' or biased data?,The model will inherit those biases and produce inaccurate or poor-quality results.
+A model originally trained on 'ImageNet' is frequently fine-tuned on smaller target datasets like _____.,CIFAR-10.
+"The process of adapting a general model for a very specific, niche field is called _____ training.",Domain-specific.
+"In the demonstrated fine-tuning code, what was the purpose of the 'Training Loss' metric?",To track the model's progress and determine how well it is learning from the new dataset.
+How does fine-tuning a banking chatbot improve customer experience?,It enables more accurate and relevant responses to industry-specific financial inquiries.
+What is the purpose of 'Validation' during the fine-tuning training phase?,To evaluate the model's performance on unseen data to ensure it is learning correctly.
+Which specific step ensures that a fine-tuned model's progress is not lost after a session ends?,Saving the model to a persistent storage location.
+Why are generic chatbots often unable to generate realistic images of niche industrial equipment?,They lack training on the specific datasets that include detailed images and specs of those tools.
