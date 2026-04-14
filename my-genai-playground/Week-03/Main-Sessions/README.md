@@ -26,6 +26,7 @@ I am Muhammad Bilal, an aspiring AI Architect. Every dataset cleaned and every m
 Check out my latest AI projects and technical evolution here:
 
 🔗 𝗛𝘂𝗴𝗴𝗶𝗻𝗴 𝗙𝗮𝗰𝗲: https://huggingface.co/bkbilal09/spaces
+
 🔗 𝗚𝗶𝘁𝗛𝘂𝗯: 
 
 𝗞𝗲𝗲𝗽 𝗹𝗲𝗮𝗿𝗻𝗶𝗻𝗴. 𝗞𝗲𝗲𝗽 𝗯𝘂𝗶𝗹𝗱𝗶𝗻𝗴.
