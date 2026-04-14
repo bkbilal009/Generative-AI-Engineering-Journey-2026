@@ -1,4 +1,5 @@
 🚀 𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗜𝗩𝗘 𝗔𝗜 𝗧𝗥𝗔𝗜𝗡𝗜𝗡𝗚 – 𝗖𝗢𝗛𝗢𝗥𝗧 𝟯 | 𝗪𝗘𝗘𝗞 𝟯 – 𝗗𝗔𝗬 𝟭 & 𝟮
+
 The transition from "Using AI" to "Building AI" requires a deep dive into the mechanics of model optimization. Week 3 has been an intensive journey into making AI work specifically for our unique needs.
 
 I am proud to share my latest progress in the HEC Pakistan Generative AI Training – Cohort 3, organized by Pak Angels in collaboration with iCodeGuru and ASPIRE Pakistan.
