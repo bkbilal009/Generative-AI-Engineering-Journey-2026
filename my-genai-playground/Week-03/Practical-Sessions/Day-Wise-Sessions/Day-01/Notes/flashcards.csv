@@ -1,0 +1,50 @@
+What is the primary agenda of the Voice-to-Voice AI application training session?,Creating an application where both the input and output are in voice format.
+"In a Voice-to-Voice architecture, what is the purpose of the first model (Model 1)?",To perform speech recognition (Speech-to-Text) on the user's input.
+What acronym is used to describe the process of converting speech into text?,STT (Speech-to-Text).
+What is the role of the Large Language Model (LLM) in a Voice-to-Voice application?,To process text input and generate an appropriate text-based answer.
+What is the third stage in the Voice-to-Voice application architecture?,Converting the LLM's text output back into voice format.
+What technical acronym represents the 'Text-to-Speech' process?,TTS.
+Why is the Llama model sourced via Groq instead of using ChatGPT in this specific tutorial?,"Groq provides a free-of-cost way to access Llama, whereas ChatGPT is a paid service."
+"According to the training, what are the three distinct models required for a free Voice-to-Voice architecture?","A Speech-to-Text model, an LLM, and a Text-to-Speech model."
+The standard input format for an LLM like Llama is _____.,Text
+What specific Speech-to-Text model was initially suggested by ChatGPT for high accuracy?,Whisper Large V3.
+How many different languages can the Whisper Large V3 model support?,99 languages.
+Which Google library is recommended for beginners as a user-friendly Text-to-Speech (TTS) tool?,gTTS (Google Text-to-Speech).
+Which hardware accelerator should be connected in Google Colab to ensure AI models run faster?,GPU (Graphics Processing Unit).
+What Python library is used to create the web interface (front-end) for the AI application?,Gradio.
+Where should sensitive information like API keys be stored in a Google Colab environment?,In the 'Secrets' section of the notebook sidebar.
+What is the advantage of using Whisper through Groq rather than running it locally in this project?,It is faster and easier to implement using Groq's API infrastructure.
+What must be done to a Google Colab runtime if library version conflicts occur after installation?,The runtime must be restarted.
+Concept: Fine-tuning,Definition: The process of adjusting a pre-trained model on a specific dataset to improve performance or adapt it to a specialized task.
+Under what condition is fine-tuning a model typically necessary?,When a pre-trained model does not exist for a task or its results are of poor quality.
+Why is it recommended to use unique API keys for different applications?,To track which specific application is consuming the most resources or usage.
+"In the context of AI image recognition, what is the primary difference between classification and detection?",Classification identifies what an object is; detection identifies what it is and its specific location.
+The Google 'Quick Draw' experiment primarily utilizes _____ to guess user drawings in real-time.,Pattern recognition
+Which library is required to interface with Groq's API services in Python?,The `groq` library.
+What specific LLM is accessed via the Groq API in the provided training session?,Llama.
+"What character is used in a pip command (e.g., `-q`) to ensure a 'quiet' installation with less output text?",The 'q' flag.
+"When using Groq for Voice-to-Voice, what is the output format of the Whisper model?",Text.
+"If an API key is set with a 7-day expiration, what happens to the application after that period?",The application will stop working as the key becomes invalid.
+What is the first step in the coding process after setting up the Colab environment and libraries?,Loading the API key from the environment secrets.
+How does Gradio capture voice input from a user in the web interface?,Through a microphone component or audio upload feature.
+"To improve a model's understanding of specific regional accents, what process should be applied?",Fine-tuning using a dataset of voice recordings with those specific accents.
+What is the risk of using a person's voice for training or cloning without permission?,It can lead to copyright and ethical issues.
+"In the Groq documentation, where can a developer find the 'Quickstart' guide for chat completions?",Under the 'Documentation' section in the 'Developer' settings.
+What is the purpose of a 'Dependency Resolver' error in Python package management?,It indicates that different libraries require incompatible versions of the same package.
+What is the purpose of the 'gTTS' library's `save()` method in the TTS pipeline?,"To convert the generated audio into a file (e.g., an MP3) for playback."
+Which model acts as the 'brain' or reasoning engine in the Voice-to-Voice workflow?,"The LLM (e.g., Llama)."
+"When building an AI app, why should you give an LLM specific documentation (like Groq's Quickstart) before asking it to write code?",To reduce errors and prevent the LLM from making incorrect assumptions about outdated APIs.
+True or False: A single Groq API key can be used across multiple different applications.,True.
+What happens to the 'Canvas' in 'Quick Draw' once the user stops moving the mouse?,The canvas state is captured as an image and sent to the model for recognition.
+Technical Term: ASR,Definition: Automatic Speech Recognition; another term for Speech-to-Text (STT).
+What is the most common format for the final output delivered to the user in this V2V application?,Audio playback (Speech).
+What is the primary reason for choosing 'Whisper' over other STT models in the free tier?,It offers a high level of accuracy and supports many languages for free.
+What Python command is used to install the Gradio library in Colab?,`!pip install gradio`.
+"In the V2V pipeline, which model directly receives the output from the Whisper model?",The LLM (Llama).
+What is the primary benefit of deploying an AI application to Hugging Face?,It allows the application to be hosted and accessible via a public URL.
+Why is it important to toggle the 'Access' switch to 'On' for a secret in Google Colab?,"Otherwise, the code will not be able to retrieve the stored value during execution."
+"In the troubleshooting section, what did the error regarding 'huggingface_hub' suggest?",A library version conflict that might require installing a specific version of the package.
+What is the function of the `userdata.get()` method in a Colab notebook?,To securely fetch the value of a stored secret (like an API key).
+How does an LLM handle 'Voice' input if it only accepts text?,It relies on a separate STT model to transcribe the voice into text first.
+What is the final stage of the user interaction in the provided V2V demo?,The user hears an audio response generated from the text answer.
+What is the role of '11 Labs' mentioned in the Q&A section?,"It is a high-quality, albeit costly, Text-to-Speech service known for natural-sounding voices."
