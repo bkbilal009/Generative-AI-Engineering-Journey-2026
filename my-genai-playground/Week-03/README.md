@@ -1,7 +1,3 @@
-Agay barhte hue, agar aapko is haftay ki summary ek mukhtasir post ki tarah chahiye jo sirf aapki learning aur building par focus kare, to ye rahi:
-
----
-
 🚀 **𝗪𝗘𝗘𝗞 𝟯 𝗥𝗘𝗖𝗔𝗣: 𝗙𝗥𝗢𝗠 𝗧𝗛𝗘𝗢𝗥𝗬 𝗧𝗢 𝗗𝗘𝗘𝗣 𝗘𝗫𝗘𝗖𝗨𝗧𝗜𝗢𝗡**
 
 Is haftay ka focus sirf seekhnay par nahi, balkay **Build** karnay par tha. Generative AI ki dunya mein sirf model use karna kafi nahi, unhein customize karna asli skill hai.
