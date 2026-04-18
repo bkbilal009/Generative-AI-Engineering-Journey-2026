@@ -1,0 +1,55 @@
+What is the primary factor used to categorize and select a base model for an AI project?,"The nature of the data involved in the problem (e.g., image, audio, or text)."
+What are the four common categories of data used to identify appropriate AI models?,"Image, Audio, Numerical, and Textual data."
+"What is the technical term for re-training a pre-existing model on a new, specific dataset?",Fine-tuning.
+How does 'fine-tuning' differ from 'training from scratch'?,"Fine-tuning uses a pre-trained model as a starting point, whereas training from scratch starts with no prior knowledge."
+What is the recommended course of action if the first model selected for a problem yields poor results?,Iterate through the cycle by testing alternative models within the same data category.
+Under what condition is fine-tuning generally unnecessary for an AI application?,When a general pre-trained model already provides satisfactory results for the specific task.
+Why is fine-tuning often considered a costly process compared to general model use?,"It requires significant computational resources, time, and specialized hardware."
+Which platform is recommended as a secondary resource when Google Colab's free tier is insufficient for fine-tuning?,Kaggle.
+How can developers manage hardware resource limits when fine-tuning a very large dataset?,By performing the fine-tuning process 'chunk by chunk' or in smaller batches.
+What is the primary alternative to fine-tuning for giving an LLM access to specific custom files?,RAG (Retrieval-Augmented Generation).
+"In a chatbot designed to retrieve files, why might an LLM be used instead of a standard file search?",To identify relevant files when naming conventions are inconsistent or randomized.
+What strategy can be used to minimize storage costs in a file-sharing chatbot?,"Implementing a mechanism to automatically delete temporary files after a short period (e.g., $10$ minutes)."
+How are API usage costs for Large Language Models typically calculated?,Based on the number of tokens (words or parts of words) processed.
+What is a common troubleshooting step for the Groq API 'Only teams and developers can create' error?,"Changing the internet connection, switching devices, or using an Incognito browser window."
+Is the original training dataset required once the fine-tuning process is finished?,"No, only the resulting model file (such as a .pkl file) is needed for the application to function."
+"In model development, what is the purpose of a .pkl (pickle) file?",It serves as the serialized output file containing the trained model or its weights.
+Why is Gradio often preferred over Streamlit for testing models specifically within Google Colab?,"It is easier to integrate, test, and preview directly inside the Colab environment."
+What is the main advantage of using Streamlit over Gradio for a final AI application interface?,It offers greater flexibility and a wider variety of UI elements and customization options.
+"How are database credentials, like a Firebase URL, securely managed in a Colab environment?",By storing them as 'Secrets' in the settings and accessing them as environment variables.
+How do AI models interpret images before performing analysis?,They convert the image pixels into numerical grids or feature vectors.
+Concept: PCA (Principal Component Analysis),Definition: A technique used to reduce the complexity and dimensions of a dataset while keeping important features.
+What is a manual method to reduce image noise and data dimensions without using technical algorithms?,Cropping the image to focus strictly on the relevant object and removing the background.
+"What occurs when a model is trained on a very small dataset (e.g., $90$ images for $90$ categories)?",Overfitting (the model memorizes the data instead of learning general patterns).
+What is the technical term for increasing dataset size by creating modified versions of existing images?,Data Augmentation.
+What are common examples of Data Augmentation techniques?,"Rotating, blurring, cropping, or resizing existing images to create new variations."
+"In the context of model training, what does one _____ represent?",Epoch (meaning the entire dataset has been passed through the model once).
+What is the danger of increasing the number of training epochs excessively?,"It leads to overfitting, where the model's accuracy on the training set is high but it fails on new data."
+Which mechanism stops training automatically when a model stops showing improvement in learning?,Early stopping.
+What is a recommended minimum number of images per category to achieve basic model reliability?,At least $500$ images.
+"If an object detection model only recognizes the exact images it was trained on, it is considered _____.",Overfitted.
+How can synthetic data be generated to augment a small training dataset?,By using generative models to create new images or text based on specific descriptions of features.
+What is the suggested first step for a developer to plan a complex AI project workflow?,Consult an LLM (like ChatGPT) to describe the idea and receive a structured project guide.
+How are video files typically handled by generative AI models?,They are processed as a sequential combination of individual images.
+What is the benefit of automating manual administrative tasks using AI in terms of environmental sustainability?,"It reduces paper consumption, which indirectly prevents the cutting of trees."
+Which term describes the process of extracting meaningful patterns from numerical image data?,Feature extraction.
+"In the HEC training program, when are the practice sessions held compared to main classes?","Practice sessions are held daily (Tuesday to Friday), while main classes are on Sunday and Monday."
+Which specific UI library was mentioned as better for 'conversational mode' applications?,Gradio.
+What is the primary goal of the upcoming 'Agentic AI' session?,To teach how to create AI agents that can perform autonomous tasks and workflows.
+What does a model 'learn' from an image of a bird during feature extraction?,"Patterns such as feathers, wings, beak shape, and structural proportions."
+"How can a model be forced to focus only on a specific domain, such as dentistry?",By fine-tuning the model exclusively on datasets related to that specific medical field.
+What technical term refers to the numerical representations models use to understand text or images?,Embeddings.
+Why might a model fail to recognize a black dog if it was only trained on images of brown dogs?,"The dataset lacked diversity in variations, leading to a failure in pattern generalization."
+What is the purpose of the 'Responsible Use of AI' session in the curriculum?,To discuss the ethical implications and safe implementation of AI technologies.
+Which tool can be used to create automated AI workflows without writing extensive code?,N8N.
+"If a developer needs a model that supports image inputs and the current free model doesn't, what is the solution?",Select a multimodal model that explicitly supports image processing or build a custom image-to-text pipeline.
+What is the primary reason for categorizing problems before selecting a model?,"To ensure the model architecture is compatible with the input data format (e.g., audio models for sound)."
+"In AI development, what does 'scraping' refer to in the context of creating a dataset?",Collecting data from the internet to build a custom training set.
+What is the key difference between a conversational chatbot and an object detection model?,"A chatbot processes textual sequences, while object detection identifies patterns within spatial image data."
+What is the role of a 'System Prompt' when refining an LLM's behavior?,"To provide high-level instructions that define the model's persona, limitations, and specific task focus."
+How does the ' rote memorization' analogy explain overfitting in students?,A student who memorizes a specific answer cannot answer the same question if it is slightly rephrased.
+What does the term 'Multimodal' mean in the context of AI models?,"The ability of a single model to process and relate different types of data, such as images and text simultaneously."
+Why is it important to use 'Incognito Mode' when troubleshooting API key generation issues?,It clears cache and cookie-related conflicts that might interfere with account verification.
+What is 'tokenization'?,The process of breaking down text into smaller units (tokens) that a model can process numerically.
+"In a medical application, why might you use two different models (one for images and one for text)?",One model detects physical symptoms from photos while the other provides conversational diagnosis and advice.
+What is the purpose of the 'Hackathon' mentioned in the training schedule?,To allow students to build and showcase a complete AI project based on the skills learned.
