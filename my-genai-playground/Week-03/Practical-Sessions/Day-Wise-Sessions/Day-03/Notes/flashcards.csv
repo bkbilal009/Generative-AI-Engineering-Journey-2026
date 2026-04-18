@@ -1,0 +1,50 @@
+What is the primary objective of fine-tuning a pre-trained model?,To achieve much better results for a specific task compared to the model's default performance.
+"In the fine-tuning process, what is the first step a developer must take regarding data?",Find an existing dataset or collect/create a new one.
+What is the key difference between 'training' from scratch and 'fine-tuning'?,"Training starts from scratch, while fine-tuning uses a model that has already been pre-trained on other data."
+What is the purpose of the 'validation' step in the machine learning training process?,To make sure the training is proceeding correctly and producing accurate results.
+Why might a model fail to correctly identify a dinosaur if it was only trained on a standard animal dataset?,The model will likely produce wrong results for any data category that was not included in its training set.
+"In a data split, what is the specific role of the 'Training Data'?",It is used to directly train or fine-tune the model's parameters.
+"In a data split, what is the primary purpose of 'Testing Data'?",It is used to evaluate the model's performance and accuracy after training is complete.
+What is the result of further dividing training data into a 'Validation Set'?,It allows the developer to test the model's progress specifically during the training phase.
+"Using a school analogy, which type of data evaluation corresponds to 'board papers' or final exams?",Testing data.
+"Using a school analogy, which type of data evaluation corresponds to 'regular classroom tests'?",Validation data.
+What is 'Kaggle' frequently used for in the field of data science?,"It is a platform used to find, host, and share datasets for machine learning."
+"In machine learning, what does the 'Classification' task involve?",Categorizing data points into different predefined classes or groups.
+What requirement must be met for a K-Nearest Neighbors (KNN) model to work in animal classification?,"The animals must have a suitable feature representation, such as image data or structured data."
+What is the standard way to organize image data sets for classification before splitting?,"Storing images of different categories in their own respective, labeled folders."
+Why would a model training script require separate paths for 'Train' and 'Test' directories?,The code needs to know which specific folders contain the data for learning versus the data for evaluation.
+How does 'Mounting' a Google Drive in Google Colab benefit a developer?,It allows the Colab notebook to access files and datasets stored directly in the user's Google Drive.
+What common error occurs in Google Colab when a training task requires more memory than the platform provides?,The session crashes due to 'using all available RAM'.
+"Compared to the free version of Google Colab, how much RAM does Kaggle typically provide for its notebooks?",Kaggle provides approximately 30 GB of RAM.
+How many GPUs are available in a Kaggle environment session compared to the standard free Google Colab?,Kaggle provides two GPUs of 15 GB each.
+What is the advantage of using Kaggle's 'Add Input' feature for datasets?,It allows you to attach datasets directly to your notebook without needing to download them locally first.
+What is a '.pkl' (Pickle) file used for in a Python machine learning workflow?,It is used to save and serialize trained models or class names for later use.
+Which deployment platform allows developers to create 'Spaces' for hosting AI applications?,Hugging Face.
+What are the three SDK options mentioned for creating a Hugging Face Space?,"Streamlit, Gradio, and Docker."
+What is the purpose of a 'requirements.txt' file in an AI application deployment?,It lists all the Python libraries and dependencies that must be installed for the app to run.
+"In a Hugging Face deployment, what file typically contains the main application logic?",app.py
+What is the maximum storage limit for a free Hugging Face Space?,1 GB.
+"To use the KNN model after training, what two specific components must be loaded into the application?",The trained model file and the file containing the class names.
+What is 'ResNet50' in the context of computer vision?,It is a popular variant of a pre-trained Convolutional Neural Network (CNN) model used for image tasks.
+"If a dataset split uses a 'test_size' of 0.2, what percentage of the data is reserved for training?",80%.
+"When considering image processing for models, why is pixel dimension more important than file size in MB?","The model processes the numerical pixel values (e.g., $256 \times 256$), which determines the complexity of the calculation."
+What determines if a model training is 'from scratch' versus 'fine-tuning'?,Whether a pre-trained model was selected at the start or if the model was initialized with random weights.
+"In the provided example, why was the 'Dinosaur' image predicted incorrectly as a 'Donkey'?","The training dataset did not contain images of dinosaurs, so the model tried to map it to the most similar known category."
+What does the term 'Directory' refer to in the context of file paths?,A folder.
+Which library is used in the transcript to save models as '.pkl' files?,Pickle.
+Why is 'Cleaning' a dataset important for model accuracy?,The quality of the model's predictions depends heavily on the cleanliness and relevance of the input data.
+What is the function of the 'SDK version' in a Hugging Face configuration file?,It specifies the exact version of the framework (like Streamlit) required to host the application.
+"In a training script, what does '0.2' usually represent when splitting data?",A $20\%$ portion of the total dataset.
+What is the first action to take if a Hugging Face space fails with a 'Build Error' related to libraries?,Check and update the 'requirements.txt' file for version mismatches or missing packages.
+What is the utility of using a '.zip' file for datasets in Google Colab?,It allows for faster uploading of thousands of small image files as a single compressed package.
+How can you copy the path of a file in Google Colab?,Click on the three dots next to the file name and select 'Copy path'.
+Why might a student choose Kaggle over Google Colab for a large image classification project?,"Kaggle offers superior free hardware resources, specifically higher RAM and dual GPUs."
+Which Python library is used to create interactive web interfaces for machine learning models as mentioned in the text?,Streamlit (or Gradio).
+What information is typically stored in the 'Class Names' file during classification training?,"A mapping of numerical indices to human-readable category labels (e.g., $0$ = 'Cat', $1$ = 'Dog')."
+The 'Animals' dataset mentioned contains _____ different animal classes.,90
+What does 'Pre-trained' imply about a model's weights?,The weights have already been adjusted by training on a large-scale dataset (like ImageNet).
+"In Hugging Face, 'Public' visibility for a space means _____.",Anyone with the link can access the application.
+What does 'CPU basic' indicate in a cloud deployment setting?,The application runs on standard central processing units without specialized graphics acceleration.
+"If you need to use an API key in a model, where would you typically NOT use it based on this session?",In a basic local classification model that doesn't call external LLM services.
+What is the primary benefit of the 'Mounting' process in Colab for large datasets?,It avoids the need to re-upload large files every time the session restarts.
+Why is the file 'app.py' essential for Streamlit deployments?,It serves as the entry point that contains the code for the user interface and model prediction logic.
