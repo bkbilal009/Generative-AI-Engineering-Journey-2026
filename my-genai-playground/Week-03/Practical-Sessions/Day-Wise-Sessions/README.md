@@ -21,9 +21,12 @@ Developed a seamless Voice-to-Voice interaction system. By integrating speech re
 Successfully built and deployed an Animal Classifier using custom fine-tuning and cleaned datasets. Additionally, I mapped out a comprehensive Generative AI App Roadmap, defining the path from initial data cleaning to final cloud deployment.
 
 
-🚀 BUILDING IN PUBLIC
+**🚀 BUILDING IN PUBLIC**
+
 I am Muhammad Bilal, and I am committed to documenting my evolution from an AI enthusiast to an AI Architect. My goal is to push the boundaries of research and development.
 
 Explore my live AI applications and progress here:
-🔗 Hugging Face: https://huggingface.co/bkbilal09
-🔗 GitHub: https://github.com/bkbilal009
+
+🔗 **Hugging Face**: https://huggingface.co/bkbilal09
+
+🔗 **GitHub**: https://github.com/bkbilal009
