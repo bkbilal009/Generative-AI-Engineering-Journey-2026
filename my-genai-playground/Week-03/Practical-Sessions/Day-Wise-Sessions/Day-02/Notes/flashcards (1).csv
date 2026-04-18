@@ -1,0 +1,58 @@
+What is the primary educational goal of the 'AI Learning Mentor' application described in the training?,To help users apply theoretical concepts to real-world problems and practical scenarios.
+Which specific Large Language Model family is used for the AI mentor application?,Llama 3
+Which provider is utilized to access and run the Llama 3 model via an API?,Groq
+What Python library is recommended for creating the user interface of the AI application?,Gradio
+What is the purpose of the 'requirements.txt' file in a Hugging Face Space deployment?,It lists all the necessary Python libraries the server needs to install to run the app.
+Which environment is suggested for initial testing and debugging before deploying to Hugging Face?,Google Colab
+How can you prevent an AI from using outdated model names when generating code for APIs?,Include an instruction in the prompt for the AI to search online for the latest model version.
+What is the benefit of organizing application code into modules or functions rather than a single script?,It allows for easier debugging by testing individual parts of the application independently.
+Where should sensitive information like API keys be stored when deploying to Hugging Face?,In the 'Secrets' or 'Variables' section of the Space settings.
+"In the mentor app, what three skill levels can a user typically select?","Beginner, Intermediate, and Advanced."
+Which Gradio component allows users to select between mutually exclusive options like 'Beginner' or 'Advanced'?,Radio buttons
+What is the standard name for the entry-point Python file in a Hugging Face Space?,app.py
+What error occurs if the Groq API key is missing or not properly initialized in the code?,A ValueError stating the API key was not found.
+"In newer versions of Gradio, what specific format is required for chat history messages?",A list of dictionaries containing 'role' and 'content' keys.
+What is the consequence of maintaining an excessively long chat history in an LLM application?,It consumes a high number of tokens and may quickly reach API rate limits.
+How does the mentor app help with 'Problem Solving' specifically?,By generating practice questions and evaluating the user's answers based on a specific topic.
+What does the 'Deep Dive' mode in the application provide to the learner?,Detailed explanations and technical depth for a specific topic or function.
+Term: Token Consumption,"Definition: The amount of text processed by an LLM, which determines API costs and usage limits."
+Why is it important to use comments when asking an AI to generate code modules?,To ensure the code is human-readable and easier to modify or fix later.
+What is the 'System Message' in an LLM prompt used for?,"Defining the core persona, instructions, and behavior of the AI model."
+"If a Gradio app displays a 'Data Incompatible' error for a chatbot, which component is usually misconfigured?",The chat history message format.
+What functionality allows a mentor app to remember previous parts of a conversation?,Chat history management.
+How can a developer test if a specific function in a modular script is working correctly?,By commenting out other functions and printing the output of the target function to the console.
+What is the role of 'Groq' in the architecture of the AI Learning Mentor?,It acts as the inference engine that processes the user's requests through the Llama model.
+What specific file extension is used for the dependencies list in Python projects?,.txt (usually requirements.txt)
+Why might a developer prefer a single-tab interface over multiple tabs for a chat application?,To create a more streamlined and user-friendly experience where all responses are in one place.
+What happens to a Hugging Face Space when the 'Secrets' are updated?,The application automatically rebuilds to apply the new configuration.
+"In the prompt engineering phase, what is meant by 'context'?","Providing the AI with background information, such as the user's skill level and specific learning goals."
+How does the application handle the 'Real World Application' requirement?,By explaining how technical concepts (like dictionaries) are used in industries like data analysis or game development.
+What is the main limitation of using free-tier API resources for chat history?,The strict token and request limits often require keeping the history minimal.
+Concept: Modular Programming in AI Apps,"Definition: Breaking down the AI's tasks (e.g., plan generation, problem solving) into separate, callable functions."
+What is the primary function of the 'gradio.Tab' component?,"To organize different application features into separate, clickable views."
+How can you simulate 'Personalized Learning' in a simple chat application?,By passing user-specific data and history into the prompt for each interaction.
+What does a '403 Forbidden' error typically indicate in the context of using external models?,"An issue with authentication or permissions, often related to the API key."
+Why is it recommended to search for the 'latest model name' specifically for Groq/Llama?,"Because AI models are frequently updated, and using an outdated name will cause API call failures."
+What is the benefit of a 'single code block' request when using an AI to generate a prototype?,"It provides a complete, runnable script that can be quickly tested in environments like Google Colab."
+Which Gradio component is best suited for long-form AI-generated text output?,Markdown
+What key information must be included in the 'requirements.txt' for the Groq client to work?,"The name of the library, which is 'groq'."
+How does a developer identify the specific line causing an error in a Python traceback?,By locating the 'File' and 'line' number reference at the end of the error message.
+"In the mentor app, what is the role of 'evaluating the user's learning'?",The AI reviews user answers to practice problems and provides constructive feedback.
+Why is 'Mark-up text' (Markdown) preferred over simple 'Print' statements in Gradio?,"It allows for better formatting, including headers, lists, and code blocks for better readability."
+What is the risk of hardcoding an API key into a GitHub or Hugging Face repository?,"The key becomes public, allowing anyone to use your paid or limited resources."
+How can you allow a user to decide if they want practice problems included in the AI's response?,By using a 'Checkbox' component and incorporating its state into the prompt logic.
+What does the instruction 're-prompting' refer to in AI development?,Giving the AI a revised set of instructions to improve or change its previous output.
+"In Python code for Groq, what variable is typically used to store the initialized API client?",client
+What is the specific utility of using the `os` library in an `app.py` file?,To retrieve API keys stored in the environment's system variables.
+"In a Gradio interface, what does the `Interface.launch()` method do?",It starts the web server and provides a URL to access the application.
+How can 'Prompting' be used to control the output format of an AI mentor?,By explicitly telling the AI to use Markdown headers or specific structural templates.
+What is a 'Roadmap' in the context of the AI Learning Mentor app?,A structured sequence of topics that the AI suggests the user should learn to master a skill.
+What happens if a developer doesn't update Gradio components to match the latest message schema?,The application will likely crash with a runtime error when processing inputs.
+Why does the session emphasize testing in Google Colab before Hugging Face?,Colab provides an interactive environment to quickly identify and fix code errors without long build times.
+How can you implement a 'search online' feature for a chat model that lacks live internet access?,By using a tool-augmented model or providing the search results directly within the prompt context.
+Term: Traceback,Definition: A report providing information on the sequence of function calls that led to a specific error in a program.
+What is the purpose of 'Fine-tuning' as discussed in the context of future sessions?,To train a model on a specific dataset to improve its performance for a very specialized task.
+"In the final mentor app, what is the 'User Topic' input field used for?","It allows the user to specify the exact skill or concept they want to learn (e.g., 'Python loops')."
+What is the significance of the 'Settings -> C3' path mentioned in the transcript?,It refers to the specific administrative location in Hugging Face to manage space variables.
+How do you ensure that the AI mentor provides 'Best Practices'?,By explicitly asking for industry-standard techniques and common pitfalls in the system prompt.
+What is the core difference between a 'Prototype' and a 'Final App' in AI development?,"A prototype focuses on core functionality, while a final app includes refined UI, error handling, and deployment."
