@@ -1,0 +1,57 @@
+What does the acronym 'RAG' stand for in the context of Generative AI?,Retrieval-Augmented Generation.
+How is RAG conceptually different from an AI model relying solely on its internal memory?,It provides the AI with 'open-book' access to external information before generating an answer.
+What is 'Data Staleness' in Large Language Models?,The inability of a model to provide updated information because its training data is fixed in time.
+Which AI issue involves a model confidently providing incorrect or made-up results?,Hallucinations (or incorrect results).
+What are the three main components of a RAG system mentioned in the training?,"The Retriever, the Generator, and the Feedback Loop."
+Which RAG component is responsible for searching a database to find relevant information chunks?,The Retriever.
+What is the primary role of the 'Generator' in a RAG pipeline?,To formulate a human-like final answer using the information provided by the retriever.
+What is the purpose of a 'Feedback Loop' in RAG?,To evaluate and improve the quality of the generated answer by re-checking it against retrieved data.
+"In RAG pre-processing, what is the process of breaking large documents into smaller, manageable pieces called?",Chunking.
+Why is 'Tokenization' performed during text pre-processing?,To split text into smaller units like words or characters so they can be processed numerically.
+Concept: Embeddings,Definition: Numerical representations (vectors) of text that capture its semantic meaning. Example: Mapping the word 'King' and 'Queen' to similar numerical spaces.
+How does a Vector Database search for information compared to a traditional SQL database?,It uses semantic similarity search (meaning) instead of exact keyword matching.
+Which specific open-source library developed by Facebook is used for efficient similarity search in the training?,FAISS (Facebook AI Similarity Search).
+Name three other Vector Databases mentioned besides FAISS.,"Pinecone, Weaviate, and ChromaDB."
+"What is the 'Garbage In, Garbage Out' principle in RAG systems?","If the Retriever finds low-quality or irrelevant data, the Generator will produce a weak or incorrect answer."
+Which RAG type follows the simplest 'retrieve then generate' workflow without additional self-correction?,Standard RAG.
+What is 'Corrective RAG' (C-RAG)?,A system that identifies errors in retrieved data and may use web searches to correct and refine knowledge.
+Which RAG variant prioritizes speed by 'guessing' which data will be relevant instead of performing a full retrieval?,Speculative RAG.
+What distinguishes 'Agentic RAG' from other RAG types?,"It uses AI agents to make autonomous decisions, identify goals, and suggest or perform actions."
+Why is RAG considered more flexible than Fine-tuning for frequently changing data?,RAG updates the external knowledge base without needing to retrain the entire model.
+Which Python library is highlighted for building complex AI applications and RAG workflows?,LangChain.
+What is the purpose of 'Chunk Overlap' when splitting a document?,To maintain the semantic context and relationship between adjacent text segments.
+"In the context of embeddings, what does a vector represent?",A mathematical representation of the meaning of a piece of text.
+How many dimensions are typically in the embeddings produced by the Sentence Transformer model used in the session?,Approximately $384$ dimensions.
+What is 'Semantic Search'?,Searching based on the intent and meaning of words rather than literal character matches.
+What is the 'Augmentation' step in RAG?,Combining the retrieved relevant document chunks with the user's original query into a single prompt for the LLM.
+Which LangChain tool is used to split documents based on specific characters like newlines or spaces?,RecursiveCharacterTextSplitter.
+"In a RAG query, what does the parameter $k$ represent during the retrieval phase?",The number of top most relevant document chunks to return to the model.
+What happens if a user's query is misspelled in a RAG system using vector embeddings?,"The embedding model maps the query to the closest meaningful vector, often overcoming minor spelling errors."
+What is the role of 'Gradio' in the training project?,To create a web-based user interface for interacting with the RAG chatbot.
+Where was the final RAG application deployed for public access?,Hugging Face Spaces.
+Why should API keys be stored in 'Secrets' rather than directly in the code?,To protect them from exposure and unauthorized use.
+What is 'Prompt Engineering' in a RAG context?,Crafting instructions that tell the AI how to use retrieved context to answer a user's specific question.
+How does the 'Temperature' parameter affect an LLM's response?,It controls the randomness or creativity of the model's output.
+What is 'Index Saving' in a vector database implementation?,Storing calculated vectors in a local file so they do not need to be recomputed every time the app runs.
+Which LangChain component is used to load and parse PDF files into the system?,PyPDFLoader.
+"In the open-book exam analogy, what does 'Fine-tuning' represent?",A student studying and memorizing all the material before the exam starts.
+What is the 'System Prompt' used for in the RAG implementation?,"Setting the AI's persona, such as telling it to be a 'helpful assistant' or to only answer from provided context."
+How does RAG help reduce costs compared to Fine-tuning?,It avoids the expensive computational resources required to retrain an LLM on new data.
+What is 'Knowledge Refinement' in Corrective RAG?,The process of filtering and cleaning retrieved data to ensure only the most accurate information is sent to the LLM.
+What specific LLM provider was used via API in the practical session?,Groq.
+Which Python environment was used to run and test the RAG code during the session?,Google Colab.
+What is 'Semantic Similarity'?,"A measure of how close two pieces of text are in meaning, determined by their vector distance."
+Which step in the RAG process must be done to the user's query before searching the database?,The query must be converted into a vector embedding using the same model used for the documents.
+What is a 'Document Object' in LangChain?,A data structure containing 'page_content' (the text) and 'metadata' (details about the source).
+What defines the 'Max Tokens' parameter in an LLM call?,The maximum length of the response the AI is allowed to generate.
+"If an LLM is told to only answer from context and no relevant context is found, what should it do?",State that it does not have enough information to answer.
+Which component acts as the 'brain' that processes the augmented prompt in a RAG system?,The Large Language Model (LLM) or Generator.
+Why is Standard RAG considered 'limited' in complex environments?,It lacks the ability to double-check its sources or handle highly ambiguous data autonomously.
+What is the purpose of the 'Separator' list in a text splitter?,To define priority characters (like $\\text{\n}$ or periods) where the text should be broken to keep content logical.
+How does RAG improve the 'Trust' factor of AI responses?,"By grounding answers in specific, verifiable documents rather than the model's internal statistical guesses."
+Which RAG type is noted for being the most difficult to implement due to its complexity?,Agentic RAG.
+"In the code, what is the role of `StrOutputParser`?",To ensure the final response from the LLM is returned as a simple string.
+How does the 'Retriever' determine which chunks are 'most relevant'?,By calculating the mathematical distance between the query vector and the document vectors in the database.
+What is a 'Knowledge Base' in the context of RAG?,The collection of external documents that have been vectorized and stored for the AI to access.
+Which library provides the 'SentenceTransformer' models for generating embeddings?,The `sentence-transformers` library (often used within LangChain).
+What is the outcome of setting a 'Chunk Size' that is too small?,The AI may receive fragments of text that lack enough surrounding context to be useful.
