@@ -1,0 +1,50 @@
+What does the acronym RAG stand for in the context of Generative AI?,Retrieval-Augmented Generation
+"In a professional setting, where is the document data for a RAG-based application typically stored?",In a back-end knowledge base rather than requiring user uploads for every query.
+What is the primary purpose of using RAG for organization-specific applications?,To provide accurate answers based on internal policies and domain-specific data that general LLMs do not possess.
+"In the RAG workflow, what is the first step performed on a user query before it enters the vector database?",The query is converted into a vector using an embedding model.
+Process: Document Processing in RAG,"Documents are chunked (tokenized), converted into vectors, and stored in a vector database."
+Why must text documents be converted into vectors for use in RAG systems?,Computers cannot understand natural language directly and must process information in numerical (vector) form.
+Which component in a RAG system is responsible for finding relevant document chunks based on a user's vectorized query?,The Retriever
+How does a retriever determine which documents are relevant to a user's query?,By performing a similarity search within the vector database.
+What is the role of the Large Language Model (LLM) in the RAG architecture?,It generates a natural language response based on the retrieved relevant documents and the original user query.
+Which specific vector database library was utilized in the training session for being free and efficient?,FAISS (Facebook AI Similarity Search)
+Which platform was used to source open-source embedding models for document vectorization?,Hugging Face
+"For the generation part of the RAG application, which specific LLM provider was used via API?",Groq
+Which library is used to create the front-end user interface (UI) for the RAG application?,Gradio
+"In the demonstrated setup, what service acts as the 'Knowledge Base' to store PDF documents?",Google Drive
+"To allow a Google Colab script to access Google Drive files without mounting the drive, the files must be set to _____.",Public (Anyone with the link)
+"In Google Colab, what feature is used to securely store and access API keys like the Groq API key?",Secrets (the key icon on the left sidebar)
+Which Python library is essential for managing the RAG pipeline components like document loaders and vector stores?,LangChain
+What is the function of the `RecursiveCharacterTextSplitter` in the RAG pipeline?,"It breaks down large documents into smaller, manageable chunks for embedding."
+Why is 'chunking' a necessary step before creating document embeddings?,To ensure the context provided to the LLM stays within its token limits and remains relevant to specific sections of the text.
+Term: Similarity Search with Score,"Definition: A method to filter retrieved documents based on a threshold (e.g., 0.6) to ensure they are sufficiently relevant to the query."
+How can you restrict a RAG chatbot to only answer questions using the provided documents?,By using strict system instructions in the prompt and implementing a similarity score threshold for retrieval.
+What is the standard name for the main Python script when deploying an application to Hugging Face Spaces?,app.py
+Which file is required to list all necessary Python libraries for a Hugging Face Spaces deployment?,requirements.txt
+How does the method of accessing environment variables change when moving from Google Colab to Hugging Face Spaces?,"Colab uses `google.colab.userdata.get()`, while Hugging Face uses `os.getenv()` or `os.environ.get()`."
+What is a 'Custom Domain' in the context of deploying a web application?,"A unique, professional URL (like .com or .org) purchased from a provider and linked to the application's hosting server."
+"In the RAG context, what is the consequence of increasing the input context for the LLM?","The token count increases, which may result in higher costs or longer processing times."
+Which RAG component is referred to as the 'Generator'?,The Large Language Model (LLM)
+What is the benefit of saving vector embeddings locally as a file (like a .pkl or .bin file)?,It avoids the time-consuming and computationally expensive task of re-generating embeddings every time the app starts.
+Concept: Agentic RAG,Definition: A RAG system with decision-making capabilities that can manipulate files or perform multi-step reasoning.
+"When a retriever pulls the top 3 results from a vector database, it is specifically pulling the three most _____ chunks.",Relevant (or similar)
+"To use multiple PDF documents from Google Drive in a RAG system, the code must _____ through a list of public links.",Loop
+"In Gradio, how is custom CSS applied to the user interface?",By passing a CSS string to the `gr.Blocks()` or `gr.Interface()` constructor.
+What does a similarity score of $0.6$ typically represent in a vector search filter?,A requirement that the retrieved chunk must have at least 60% relevance or resemblance to the query.
+What happens if a user asks a question about 'Batman' to a RAG system trained only on deep learning papers?,"The system should ideally state it does not have that information, provided domain-restriction is properly configured."
+Which platform provides the 'Secrets' tab for storing API keys in a deployed 'Space'?,Hugging Face
+What is the primary advantage of Gradio's 'responsive' UI design?,"The interface automatically adjusts its layout to look good on different devices, such as mobile phones and desktops."
+True or False: RAG systems generally use fewer tokens than standard LLM interactions.,"False, they use more tokens because document context is added to the prompt."
+"If a RAG system incorrectly answers a question from its general knowledge instead of the document, what should be adjusted?",The system prompt should be made stricter to enforce 'domain-only' answering.
+What Python module is used to interact with the operating system to retrieve environment variables?,os
+"In the RAG workflow, what is the role of the 'Embedding Model'?",To transform text data into high-dimensional numerical vectors.
+What is the risk of not setting a similarity threshold in a RAG system?,The system may retrieve irrelevant chunks and provide hallucinated or off-topic answers.
+How can a developer allow a RAG system to handle multiple different file formats like Excel and Word?,"By implementing different document loaders (e.g., DocxLoader, ExcelLoader) within the pipeline."
+What is the 'DNS' (Domain Name System) used for in web deployment?,It translates human-readable domain names (like website.com) into IP addresses that computers use to identify servers.
+"In a Gradio app, what is the purpose of the `launch()` method?",It starts the web server and provides a URL to access the user interface.
+What happens to the vector database in a Hugging Face Space when the app goes into 'Sleep Mode'?,"The database is typically cleared from memory and must be re-initialized when the app restarts, unless external persistent storage is used."
+Term: Knowledge Base,Definition: The collection of raw documents and data that the RAG system uses as its source of truth.
+"In the context of LLMs, what is 'Contextual Augmentation'?",The process of adding relevant external data to a prompt to improve the model's accuracy on specific topics.
+Why is FAISS preferred over simple keyword search in RAG?,"It allows for semantic search, finding meaning-based matches rather than just exact word matches."
+What is the 'System Prompt' in a RAG configuration?,"A set of background instructions given to the LLM to define its persona and rules for answering (e.g., 'Only use the provided context')."
+Which component acts as the 'bridge' between the retrieved data and the user query in the LLM's final prompt?,The Prompt Template
