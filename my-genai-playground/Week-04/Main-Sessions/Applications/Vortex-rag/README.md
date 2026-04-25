@@ -13,8 +13,12 @@ short_description: Strict AI grounded in private documents
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
 
+
+
 # 🌀 Vortex-RAG: Extreme-Precision Intelligence Engine
+
 > **Engineering reliable AI through strict-grounding protocols.**
+> 
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-Framework-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white)
@@ -87,10 +91,9 @@ To replicate this environment on Hugging Face:
 **Muhammad Bilal** *Aspiring AI Developer & Data Structures Specialist* Focusing on the intersection of Machine Learning and Scalable Software Architecture. 
 
 ### 🌐 Connect with my Journey
-
 | Platform | Link |
 | :--- | :--- |
-| **GitHub** | [📂 View My Repositories](YOUR_LINK_HERE) |
+| **GitHub** | [📂 View My Repositories](https://github.com/bkbilal009/Vortex-RAG) |
 | **LinkedIn** | [💼 Professional Network]([YOUR_LINK_HERE](https://www.linkedin.com/in/muhammad-bilal-dev/)) |
 | **Hugging Face** | [🚀 Live Demo]([YOUR_LINK_HERE](https://huggingface.co/spaces/bkbilal09/DocuVortex/tree/main)) |
 
