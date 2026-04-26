@@ -1,0 +1,11 @@
+pypdf
+langchain
+langchain-community
+langchain-text-splitters
+langchain-huggingface
+faiss-cpu
+gdown
+openai
+sentence-transformers
+huggingface-hub>=0.33.5
+gradio>=5.0.0
