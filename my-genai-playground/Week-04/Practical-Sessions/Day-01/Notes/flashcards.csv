@@ -1,0 +1,50 @@
+What does the acronym RAG stand for in the context of Generative AI?,Retrieval-Augmented Generation.
+"In the RAG pipeline, where is the user's query sent immediately after it is received?",To the retriever to find relevant context.
+Which three elements are combined during the 'augmentation' phase of a RAG pipeline?,"Retrieved context, user query, and system prompt."
+What is the final component in the RAG pipeline that produces the response?,The generator (typically an LLM).
+How are text documents represented numerically so they can be processed by a computer in a RAG system?,As vectors or embeddings.
+What is the primary reason for breaking down large documents into 'chunks' before embedding?,To make the data manageable and ensure the context retrieved is relevant and within model limits.
+Where are text embeddings stored for quick retrieval during a user query?,In a vector database.
+"In the practice session, what serves as the primary data source instead of a standard PDF document?",YouTube video transcripts.
+What library was used to build the front-end user interface for the YouTube RAG application?,Gradio.
+Which specific Large Language Model (LLM) family was integrated into the application via Groq?,Llama 3.
+The process of gathering information from a database to answer a user's specific query is known as _____.,Retrieval
+Concept: Embeddings,Definition: Numerical representations of text data in vector form used for calculating semantic similarity.
+What common error occurs when trying to process a YouTube link that lacks subtitles?,The system reports that no captions or transcripts are available for the video.
+"If a video lacks captions, what alternative AI model is suggested to generate a transcript from the audio?",Whisper.
+What is the purpose of using 'Groq' in the application's backend?,It provides the API to access and run the LLM models.
+Why is it important to check for updated model names in the Groq documentation periodically?,Models are frequently deprecated or replaced by newer versions like Llama 3.1.
+"In Gradio, which setting should be enabled to view detailed error logs during development?",The `debug` parameter should be set to `True`.
+What is the procedural step that follows 'Transcript Extraction' in the YouTube RAG workflow?,Chunking the transcript text into smaller segments.
+"When using a RAG system, what is 'retrieved context'?",Specific segments of data from the vector database that are most relevant to the user's question.
+Where should API keys be stored in a Google Colab environment for better security practices?,In the 'Secrets' section of the environment variables.
+How does the 'Retriever' identify which chunks to pull from the vector database?,By comparing the vector embedding of the user's query to the embeddings stored in the database.
+What is the benefit of a 'Single Tab' UI layout in Gradio for a RAG application?,It ensures a smoother data flow between the processing step and the chat interface.
+Which model was specifically mentioned as a replacement for older Llama 3 versions during troubleshooting?,Llama 3.1 70B Versatile.
+Process: Creating a RAG app for YouTube. Step 1: Input URL. Step 2: Extract Transcript. What is Step 3?,Text chunking and embedding generation.
+Why might a 'Video Processed Successfully' message still result in a query error?,The transcript may have been extracted but failed to load correctly into the vector store.
+Term: Chunking,"Definition: The process of splitting a large text into smaller, overlapping pieces to preserve context and fit model input limits."
+How does a generator differ from a retriever in a RAG system?,"The retriever finds relevant facts, while the generator synthesizes them into a coherent answer."
+What is the role of a 'System Prompt' in the RAG augmentation phase?,It provides instructions to the LLM on how to behave or format the answer based on the provided context.
+True or False: A RAG system can only process data from uploaded PDF files.,"False (it can process links, transcripts, and various data formats)."
+Which Python environment was used to run the training program's code blocks?,Google Colab.
+What is the primary function of a 'Vector Store'?,To act as a repository for high-dimensional vectors that allow for semantic search.
+"When a model is 'deprecated,' what does that mean for the developer?","The model is no longer supported or accessible via the API, requiring an update to a newer model name."
+What happens if a user queries a RAG system without first processing a document or video?,"The retriever will have no context to pull from, leading to an empty or irrelevant response."
+"In the session, what was the suggested method for handling videos in different languages like Urdu or Hindi?","The transcription API can extract the text, which can then be processed or translated as needed."
+How does semantic search in a vector database differ from traditional keyword search?,It finds information based on the meaning of the words rather than just matching exact text strings.
+What is the purpose of 'modularizing' code when building AI applications?,"To break the code into smaller, manageable sections that are easier to debug and understand."
+Formula: Augmentation Input,$Input = Context + User Question + System Instructions$
+Why is 'debug=True' useful for identifying API errors in Gradio?,It prints the full error traceback in the console or notebook output.
+"If the error 'ModuleNotFoundError' appears for 'langchain_text_splitter', what action should be taken?",Install the missing library using `pip install`.
+What is the purpose of the 'Status' message in the Gradio UI while a video is being processed?,To inform the user that background tasks like transcription and embedding are currently running.
+How can a developer ensure that their LLM always uses the latest features and model versions?,By checking the provider's online documentation for updated model strings.
+"In the RAG workflow, what comes immediately after 'Augmentation'?",Generation (the LLM processes the augmented prompt).
+What is the primary advantage of RAG over fine-tuning for specific datasets?,RAG allows the model to access real-time or specific external data without the need for expensive retraining.
+"In vector representation, similar concepts will have vectors that are _____ to each other in vector space.",Close (or spatially near)
+What role does the 'Retriever' play in reducing LLM hallucinations?,It provides factual context for the model to ground its response in.
+Why might a developer use different API keys for different applications?,To track usage rates and maintain separate quotas for each specific app.
+What is the risk of using too much context in the augmentation phase?,"It may exceed the LLM's context window limit, leading to truncated data or errors."
+Concept: Semantic Similarity,"Definition: A measure of how close two pieces of text are in terms of meaning, determined by the distance between their vectors."
+What does a 'Generator' do with the 'Retrieved Context'?,It uses the context as a primary source of information to formulate a specific answer to the user's query.
+What is the consequence of incorrect chunking in a RAG pipeline?,The retriever may provide incomplete information or lose the surrounding context needed for a correct answer.
