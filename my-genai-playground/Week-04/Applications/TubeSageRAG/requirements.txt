@@ -1,0 +1,8 @@
+langchain
+langchain-community
+langchain-groq
+langchain-huggingface
+youtube-transcript-api==0.6.3
+faiss-cpu
+sentence-transformers
+gradio==6.13.0
