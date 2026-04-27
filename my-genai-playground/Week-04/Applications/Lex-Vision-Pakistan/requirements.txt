@@ -1,0 +1,10 @@
+langchain-google-genai
+langchain-community
+chromadb
+gradio
+kagglehub
+langchain-huggingface
+langchain-classic
+langchain_core
+pandas<3.0.0
+sentence-transformers
