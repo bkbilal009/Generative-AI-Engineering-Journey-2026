@@ -1,0 +1,58 @@
+What does the acronym RAG stand for in the context of AI applications?,Retrieval-Augmented Generation.
+What primary problem do lawyers face that a RAG application aims to solve?,The excessive amount of time required to read and research legal documents.
+"In the suggested legal RAG application, what is the role of the system instead of 'predicting' solutions?",An AI legal research assistant.
+What is the first technical step in building the RAG pipeline after environment setup?,Loading and preparing the dataset.
+Which specific vector database library is used in the practice session because it is open-source and free?,FAISS.
+Which LLM provider is utilized in this specific practice session for generating answers?,Google Gemini.
+What platform is used to host and share the final Gradio application for free?,Hugging Face Spaces.
+Term: Chunking,"Definition: Breaking down large documents into smaller, manageable text segments for processing by an LLM."
+Why is it important to include 'overlapping' when creating text chunks?,To maintain context between adjacent chunks and prevent loss of information at the boundaries.
+Where did the instructor source the Supreme Court of Pakistan dataset for the project?,Kaggle.
+How many total text files were available in the Supreme Court of Pakistan dataset used in the session?,"2,809 files."
+"Why does the instructor suggest starting with a subset (e.g., 500 or 1500 files) instead of the full dataset in Colab?",To prevent the Google Colab environment from crashing due to high RAM usage.
+What is the purpose of 'Vector Embeddings' in a RAG system?,To convert text into numerical representations that capture semantic meaning for efficient searching.
+Which tool is used to create the user interface (UI) for the legal research app?,Gradio.
+Process: How is an API key securely accessed in Google Colab without hardcoding it?,By using the 'Secrets' manager in the sidebar and retrieving it via `google.colab.userdata`.
+What is the function of the 'Retriever' component in the RAG architecture?,It searches the vector database to find the most relevant chunks based on the user's query embedding.
+"According to the transcript, why might two similar legal cases have different outcomes?","Due to small differences in facts, different judge interpretations, or new law amendments."
+What is the primary benefit of using FAISS over Chroma for beginners as mentioned in the session?,"FAISS is completely free and open-source, whereas Chroma may have usage limits or costs over time."
+Which library is used to programmatically download datasets from Kaggle in Python?,`kagglehub`.
+"In the practice session, how long did it take to create embeddings for approximately 13,401 text chunks?",About 1 minute.
+What is the URL for the platform where one can generate a Google Gemini API key?,Google AI Studio (aistudio.google.com).
+Why is the research assistant approach safer than a prediction approach in legal tech?,It avoids bias and acknowledges that legal decisions are not purely based on pattern matching.
+"When deploying on Hugging Face Spaces, what happens to the app if it remains inactive for a long period?",It goes into a 'sleep' mode to save resources.
+What is the RAM limit for the free tier of Hugging Face Spaces mentioned in the transcript?,16 GB.
+Platform: Render,Feature: Offers 750 free hours per month but has limited RAM (approximately 1 GB).
+Which platform is primarily used for hosting front-end applications but requires a separate back-end host?,Vercel.
+Why is 'Testing' a crucial step before deploying an AI legal application to the public?,To ensure the accuracy of generated answers and identify any errors or hallucinated information.
+What is a major limitation of using 'Render' for heavy RAG applications?,"It only provides 1 GB of RAM, which is insufficient for large vector databases."
+Concept: Minimum Viable Product (MVP),Definition: A version of a product with just enough features to be usable by early customers for feedback.
+How does the 'Similarity Search' in FAISS work?,It calculates the distance between the query vector and document vectors to find the closest matches.
+Which specific step in the RAG process typically consumes the most time and computational power?,Generating vector embeddings for the text chunks.
+"In the provided Gradio code, what does the 'Submit' button trigger?",The processing of the query through the retrieval and generation functions.
+What is the role of `google-generativeai` library in the Python script?,It provides the interface to communicate with Google's Gemini models.
+What happens if you hardcode an API key in a public Hugging Face Space?,"The key becomes visible to anyone who views the code, creating a security risk."
+Why might a user choose Railway over Render for deployment?,"Railway offers a trial credit (e.g., $5) that can be more flexible for small backend tasks."
+How does the instructor define the 'iterative process' in AI development?,Continuously refining the app based on errors found during testing by real users.
+What is the recommended number of 'top' similar cases to retrieve for the LLM to analyze?,Top 5 to 10 similar searches.
+Which specific data format was the Supreme Court of Pakistan dataset stored in?,`.txt` (Plain text).
+"In the Gradio interface, what is 'Embed the Space' used for?",To generate a direct URL or HTML code to integrate the app into other websites.
+What is the primary drawback of using 'Streamlit Community Cloud' for large RAG apps?,It has limited RAM and the app sleeps after periods of inactivity.
+Why did the instructor use an 'AI Legal Research Assistant' prompt instead of a 'Judge' prompt?,"To ensure the AI provides supporting information rather than making final, potentially biased, legal decisions."
+What does the `len(files)` command verify in the data loading script?,The total count of files successfully identified in the specified directory.
+Which library is responsible for splitting text into chunks in the session's code?,LangChain (implied via the common RAG stack used in these trainings).
+What is the 'contextual' concept in RAG?,Ensuring the LLM answers based only on the specific documents retrieved from the vector database.
+"If a SQL database needs to be used for RAG, what must be done first?",The SQL data must be converted into a vector database format.
+What does 'Biasness' in an AI legal app refer to?,The risk of the model favoring certain outcomes or judges based on skewed training data.
+What is the benefit of the 'Direct URL' in Hugging Face Spaces?,It provides a simple link that can be shared with others to test the application interface.
+Why is 'Cleaning' the dataset necessary before creating embeddings?,To remove irrelevant information and formatting noise that could confuse the retrieval process.
+What is the size of the Supreme Court of Pakistan dataset in MB?,65.23 MB.
+How can one handle 'long-tail' legal queries in a RAG system?,By increasing the number of retrieved chunks to capture more diverse precedents.
+What is the function of the `List` and `Length` methods in Python during the file processing phase?,To organize file paths and count the number of documents to be processed.
+Why is 'Gemini' preferred over 'Groq' for this session by the instructor?,To demonstrate variety in LLM usage to the students.
+What is the main advantage of 'Railway' for permanent app hosting compared to free tiers?,It provides more stable uptime for a monthly fee once credits are exhausted.
+How does the user interface acknowledge a query is being processed?,By showing a 'processing' or 'loading' status in the Gradio app.
+What is the risk of not 'cleaning' a legal dataset before RAG implementation?,The system might retrieve metadata (like judge names) instead of actual legal arguments.
+Why is the use of 'Same Nature' cases useful for current legal problems?,They provide precedents and outcomes that might apply to current similar situations.
+Which component acts as the 'bridge' between the user's natural language and the vector database?,The Embedding Model.
+What is the ultimate goal of sharing the application link with family or colleagues first?,To perform internal testing and resolve errors before a wider release.
