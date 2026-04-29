@@ -1,0 +1,50 @@
+What is the general definition of a hackathon according to the HEC Gen AI course material?,"An event where teams think of an idea and build a complete application within a fixed, short duration."
+The specific HEC Gen AI Hackathon discussed in the session is conducted in which format?,Online or virtual format.
+What is the total duration in hours for the HEC Gen AI Hackathon?,Approximately 51 hours.
+On what date and time does the HEC Gen AI Hackathon officially begin?,"Friday, November 21st at 8:00 PM."
+On what date and time does the HEC Gen AI Hackathon officially end?,"Sunday, November 23rd at 11:00 PM."
+"What is the required team size range for this hackathon, including the leader?",Minimum of 4 and maximum of 6 members.
+Who is the only person responsible for submitting the hackathon registration form?,The Team Leader.
+What is the deadline for leaders to register a new project idea during the event?,Saturday at 4:00 PM.
+By what method should a team leader add new members or update project links after the initial registration?,By using the 'Edit Response' link received in their registration confirmation email.
+Which four specific links must be provided in the final hackathon submission?,"Deployment link, code link, presentation slides link, and presentation video link."
+Term: MVP,"Definition: Minimal Viable Product, which showcases the core functionality of an application."
+What is the maximum allowed duration for the project presentation video?,4 to 5 minutes.
+In which languages can the hackathon presentation video be recorded?,Urdu or English.
+What must be included in the presentation video to demonstrate the application's functionality?,A short live demo lasting 30 to 45 seconds.
+The primary goal of participating in this specific hackathon is _____ rather than prize money.,learning and portfolio building
+Why is it recommended to use online tools like Google Slides for the presentation?,To easily generate a shareable public link for the submission.
+Which platform is suggested for finding ready-made presentation templates based on themes like healthcare or engineering?,Slidesgo or Slides Carnival.
+Under what condition should a Hugging Face Space be set to 'Public'?,To ensure the judges can access and view the working application and code.
+What must the presentation video include to explain the technical flow of the application?,A high-level conceptual diagram showing how data moves through the system.
+"To help with idea generation, participants are encouraged to look at the 17 United Nations _____.",Sustainable Development Goals (SDGs)
+How can non-technical participants contribute to a hackathon team according to the session?,"By focusing on idea generation, presentation design, and project documentation."
+"Which AI tool is explicitly mentioned as a resource for generating code, flowcharts, and presentation content?",ChatGPT (GPT).
+What is the role of a 'Mentor' during the hackathon process?,"To provide guidance and search suggestions when a team is stuck, rather than doing the work for them."
+Who is eligible to receive a certificate upon completion of the hackathon?,Only registered participants of the HEC Gen AI course.
+What criteria does the evaluation process use regarding 'Business Perspective'?,Whether the idea can create new jobs or solve significant problems at an international level.
+"In terms of 'Technical Evaluation', why is a simple hard-coded logic calculator insufficient for this hackathon?",The project must specifically utilize Generative AI models and APIs.
+"When deploying on Hugging Face, where should sensitive information like API keys be stored?",In the 'Secrets' section of the space settings.
+What is the recommended tool for recording the presentation video as mentioned in the guidelines?,Zoom.
+Participants can find potential teammates by posting their skills in the _____.,WhatsApp community groups
+What is the first step a participant should take to find an existing project to join?,Check the 'Active Projects' list for teams with empty member slots.
+"According to the session, how does hackathon participation enhance a professional CV?",It demonstrates the ability to work in teams and handle projects across different time zones.
+How can a team leader organize multiple files and folders for deployment on Hugging Face?,By including the folder name followed by a forward slash when naming the file.
+What is the evaluation significance of the 'Top 10' projects?,They are showcased on LinkedIn and may receive further funding or support from Aspire Pakistan.
+What should be the focus of the 'Live Demo' section of the presentation video?,Displaying all core functionalities of the working application within a short timeframe.
+Which specific AI platforms were highlighted for deployment and API usage during the training?,"Hugging Face, Streamlit, Gemini, Claude, and Groq."
+Under what circumstance would the hackathon deadline be adjusted according to the speaker?,If there are significant country-wide internet connectivity issues.
+What is the purpose of the 'Unique ID' field in the registration form?,It is an optional field for the ID provided to participants via email.
+The 'Front-end' of the application can be built using Python libraries such as _____ or _____.,Gradio; Streamlit
+How can a leader verify that their project updates were successfully recorded?,By checking the 'Active Projects' sheet to see if the live data reflects the changes.
+"In the context of the hackathon, what does 'AI Ideation' involve?",Using GPT to research industry problems and brainstorm potential AI-driven solutions.
+Why is 'UI Design' considered a factor in the final evaluation of the project?,It determines how appealing and user-friendly the application is to a potential user.
+What must teams include on the final slide of their presentation?,Details and information about all the team members who worked on the project.
+How should a team handle a situation where their Gemini API tokens expire during judging?,Mention the model used in the technical diagram so judges can potentially use their own keys to test.
+What is the primary benefit of using 'Version History' in tools like Google Colab during the hackathon?,It allows judges to verify that the code was developed during the 48-hour event window.
+The 'Problem Statement' in the presentation should describe _____.,the specific challenge or pain point the application aims to solve
+What is the recommended approach for non-registered members who wish to participate?,"They can join any team to learn, but they will not receive an official certificate."
+What is the suggested method for sharing a presentation video if it is not uploaded to YouTube?,Upload it to Google Drive and ensure the sharing settings are set to 'Public'.
+Which organizational entities are mentioned as partners for this hackathon?,"Pak Angels, iCodeGuru, and ASPIRE Pakistan."
+What is the first action a team leader takes after submitting the registration form to enable future edits?,Saves the confirmation email containing the edit link.
+A hackathon project that effectively integrates multiple _____ is often viewed more favorably.,Sustainable Development Goals (SDGs)
