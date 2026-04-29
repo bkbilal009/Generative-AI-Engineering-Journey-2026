@@ -1,0 +1,54 @@
+What is the core definition of Agentic AI?,It refers to systems that autonomously plan and act to achieve specific goals within an environment.
+"In an AI Agent architecture, what component serves as the 'Brain'?",The Large Language Model (LLM).
+How does an AI Agent's capability differ from a standard LLM's capability?,"An LLM generates text based on patterns, while an AI Agent can use tools to perform actions in the real world."
+"The iterative cycle an agent follows to achieve a goal is the _____, Act, Observe loop.",Plan
+"In the milkshake analogy for AI agents, what does 'Acting' represent?",Executing physical or digital steps like going to the kitchen or calling an API.
+"In the milkshake analogy for AI agents, what does 'Observing' represent?",Checking the environment for required items or verifying if the goal was met.
+Why is ChatGPT considered only 'partially' an AI agent in a standard chat interface?,It can reason and plan but lacks autonomous control over external tools unless specifically integrated.
+What is the primary characteristic of an 'Autonomous System' in AI?,The ability to operate and make decisions without constant human intervention.
+What are the four core components of an AI Agent?,"Goal, Brain (LLM), Tools, and Memory."
+How does a 'Traditional AI Workflow' differ from 'Agentic AI'?,"Traditional workflows follow predefined, static steps, while Agentic AI adapts its steps dynamically to reach a goal."
+"In the context of AI agents, what is 'Multi-step Reasoning'?","The process of breaking a complex goal into smaller, logical sub-tasks to be executed sequentially."
+What is the role of 'Tools' in an agentic system?,"They provide the agent with external capabilities such as web searching, code execution, or database querying."
+How does 'Short-term Memory' function within an AI agent?,It maintains the context of the current conversation or session history.
+What is the purpose of 'Long-term Memory' in an AI agent?,It stores persistent information and user data across different sessions using databases or vector stores.
+What is a 'Single Agent' system?,"A system where one AI entity manages all planning, tool usage, and task execution."
+What is a 'Multi-Agent System' (MAS)?,"A system where multiple specialized agents collaborate, often with a master agent coordinating their actions."
+What is the benefit of 'Role Specialization' in multi-agent systems?,"It allows each agent to focus on a specific task, leading to better performance and easier debugging."
+What is 'Parallel Thinking' in the context of multi-agent systems?,The ability of different agents to work on multiple sub-tasks simultaneously.
+Which AI framework is specifically designed for 'Role-Based Agent Orchestration'?,CrewAI.
+Which framework uses a graph-based approach to build stateful multi-agent applications?,LangGraph.
+What is the 'Orchestration' layer in an agentic system?,The logic that manages the flow of information and task assignments between agents and tools.
+"In an agentic workflow for buying a laptop, what would a 'Search Agent' specifically do?",Gather raw data and listings of laptops that fit the user's budget and requirements.
+"In an agentic workflow for buying a laptop, what is the role of an 'Advisor Agent'?",To evaluate comparisons and suggest the best specific option to the user.
+What is 'Self-Correction' in an AI agent?,The ability of the agent to identify errors in its own output and re-run steps to fix them.
+"In LangGraph, what does a 'Node' represent?","A specific function or step in the agent's logic, such as calling an LLM or a tool."
+"In LangGraph, what do 'Edges' define?",The transition paths or directions of flow between different nodes.
+What is the 'State' in a LangGraph application?,"A shared memory structure that stores chat history, tool outputs, and model responses."
+What is the purpose of a 'Tool Node' in LangGraph?,To execute the specific external functions or APIs called by the LLM.
+How does a 'Conditional Edge' function in LangGraph?,"It routes the workflow to different nodes based on criteria, such as whether a tool was called."
+What does the method `bind_tools` do in LangChain/LangGraph?,It attaches function definitions to the LLM so it knows which tools are available to call.
+What is the role of the `StateGraph` object in LangGraph development?,It acts as the empty structure or 'brain' where nodes and edges are added to define behavior.
+Why is the output of a tool usually sent back to the LLM (Chat Node) before reaching the user?,To allow the LLM to summarize and format the raw (often JSON) data into a user-friendly response.
+"In LangGraph, what does 'compiling' the graph achieve?",It turns the defined nodes and edges into an executable agent or workflow.
+What is a 'Human Message' in the context of LangGraph state?,An object representing the input provided by the user.
+What is an 'AI Message' in the context of LangGraph state?,An object representing the response or action plan generated by the LLM.
+What does the 'DuckDuckGoSearchRun' tool allow an agent to do?,Perform real-time web searches to gather up-to-date information.
+What is the 'Alpha Vantage' API typically used for in AI agent examples?,Retrieving real-time stock market data.
+How do you define a custom tool for an agent using Python in LangChain?,By creating a function and applying the `@tool` decorator to it.
+"In a multi-agent system, what is the 'Master Agent'?",The primary agent that receives user requests and delegates tasks to specialized sub-agents.
+What is the significance of a 'Knowledge Cutoff Date' for standard LLMs?,It means the model cannot provide information on events that occurred after its training ended without external tools.
+What is 'Modularity' in agentic design?,Building agents as independent units that can be updated or replaced without affecting the whole system.
+Which Python library is commonly used to create the web user interface (UI) for AI agents on Hugging Face?,Gradio.
+"In the context of agent deployment, what are 'Secrets' used for?",Storing sensitive information like API keys securely so they are not exposed in the code.
+What is 'Scalability' in the context of multi-agent systems?,The ability to add more agents to handle increasingly complex simulations or research tasks.
+What is a 'Perception-Action Loop'?,A continuous cycle where an agent senses its environment (perception) and takes a step (action) based on that information.
+What is the purpose of the `OS` library's `environ.get` method in agent deployment?,To retrieve API keys and other configuration variables from the environment settings.
+"In a LangGraph workflow, what signifies the 'Start' of the process?","A special entry point that directs the initial user input to the first node, usually the Chat Node."
+"In a LangGraph workflow, what signifies the 'End' of the process?",A final state reached when the LLM decides no further tool calls or actions are needed.
+Why might an agent use a 'Calculator' tool instead of relying on the LLM's internal logic?,"To ensure mathematical accuracy, as LLMs can sometimes make errors in complex arithmetic."
+What is the role of 'Agentic Workflow' in customer support?,Automating the resolution of queries by searching databases and only escalating to humans when necessary.
+What does 'Thinking' vs. 'Doing' represent in the context of LLMs and Agents?,"LLMs can process and generate information (think), while Agents can execute external tasks (do)."
+What is the 'LangChain Community' library used for?,Accessing a wide variety of pre-built tools and integrations shared by the developer community.
+How can an agent's performance be monitored through its 'State'?,By reviewing the sequence of messages and tool outputs recorded in the shared memory object.
+What is the primary function of the 'Gradio' `ChatInterface`?,To provide a standard chat-based UI that connects a user's input to the agent's logic.
