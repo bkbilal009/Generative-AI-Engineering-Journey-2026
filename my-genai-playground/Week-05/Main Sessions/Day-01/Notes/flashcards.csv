@@ -1,0 +1,56 @@
+What is the primary design goal of Traditional AI systems?,"To perform specific, predefined tasks based on clear patterns and rules."
+How does Generative AI differ from Traditional AI in terms of output?,"Generative AI creates new, original content rather than just analyzing existing data."
+Traditional AI is also commonly referred to by what name in research contexts?,Non-generative AI.
+Generative AI creates responses based on what internal process?,It predicts and generates content based on patterns learned from massive amounts of data.
+Netflix recommendations and email spam filters are examples of which type of AI?,Traditional AI.
+Concept: Prompt Engineering,Definition: The art and science of communicating effectively with AI systems to get precise results.
+"In the RGCO framework for prompt engineering, what does the 'R' stand for?",Role.
+"In the RGCO framework for prompt engineering, what does the 'G' stand for?",Goal.
+"In the RGCO framework for prompt engineering, what does the 'C' stand for?",Context.
+"In the RGCO framework for prompt engineering, what does the 'O' stand for?",Output.
+Why is assigning a 'Persona' or 'Role' important in a prompt?,It guides the AI to adopt a specific professional perspective and tone for the response.
+What is the benefit of 'Iterative Prompting'?,It allows the user to refine and polish the AI's output through ongoing interaction.
+Which AI tool is specifically recommended for providing citations and research references?,Perplexity.
+Which AI tool excels at summarizing large documents (up to 900 pages) and integrating with the Google ecosystem?,Gemini.
+How does Perplexity differ from standard ChatGPT in research tasks?,Perplexity provides specific source links and citations for the information it generates.
+What is the primary use case for GitHub Copilot?,Suggesting and generating programming code.
+Define the AI phenomenon known as 'Hallucination'.,When an AI confidently generates factually incorrect or invented information.
+How can a user minimize hallucination when asking for facts?,"By instructing the AI to state ""I don't know"" rather than guessing."
+What is a major limitation of the free version of ChatGPT regarding current events?,It lacks live web searching and has an older knowledge cutoff date.
+Why is it dangerous to share a CNIC or bank details with free AI models?,The data is often stored on a 'public wall' and used to train future iterations of the model.
+The '20/80 Rule' in responsible AI usage suggests what balance of work?,Use AI for 20% brainstorming and ensure 80% of the final work is original human effort.
+"In the anatomy of an effective prompt, what should be specified after the 'Specific Task'?",The Audience and Tone.
+What is the risk of using AI for medical diagnosis?,"It lacks true understanding and may provide inaccurate, alarming, or dangerous health advice."
+Term: Custom Instructions,Definition: Settings that allow a user to define their background and preferences once for all future AI chats.
+How does Traditional AI recognize a face to unlock a phone?,"By analyzing and matching specific facial features like the nose, eyes, and lip shape."
+What role does Canva AI play for users with limited design skills?,It helps generate visual designs and professional-quality layouts from simple prompts.
+Traditional AI is described as rule-following; Generative AI is described as _____.,Human-like or creative.
+Why should users verify AI-generated links or website citations?,AI can sometimes generate fake or 'hallucinated' URLs that do not exist.
+Which AI tool is highly recommended for creating study guides and visualizing complex concepts?,Claude.
+What does it mean that AI lacks 'True Reasoning'?,"It uses statistical pattern matching of words rather than logical, critical human thinking."
+Under what condition is it considered unethically 'copy-pasting' in an academic setting?,When a student submits an AI-generated assignment without personal contribution or understanding.
+Why is Generative AI considered a 'Skill Amplifier'?,"It allows individuals to produce professional work in fields outside their primary expertise, like coding or design."
+"What prompt component involves specifying the length, format, and purpose of the output?",Constraints and Requirements.
+What is the 'public wall' metaphor regarding AI data security?,Anything shared with a free AI model should be treated as though it were posted in a public space.
+How can AI assist in project management?,By breaking down complex projects into smaller tasks and creating structured timelines.
+Traditional AI analyzes existing data; Generative AI _____ content based on learned data.,Produces or creates.
+What is the recommended tool for checking and polishing the grammar of an AI-generated draft?,Grammarly.
+A well-crafted prompt should avoid being generic to prevent what common user experience?,Frustration and the need for excessive corrections.
+"In the context of 'Anatomy of an Effective Prompt,' what is a 'Constraint'?","A specific limitation or requirement, such as word count or a prohibited term."
+What should a user do if they doubt the accuracy of an AI's factual claim?,Cross-reference the information using a credible database like Google Scholar.
+How does specifying an 'Audience' change an AI's output?,"It modifies the complexity of the language and the appropriateness of the tone (e.g., child vs. expert)."
+Which tool is best for automating status updates and organizing workflows within Microsoft Office?,Copilot.
+Why is AI not a 'definite source' of truth?,It acts as a starting point that requires human verification due to its potential for hallucinations.
+How does Generative AI handle 'Personal Context' in decision-making?,"It struggles with it, often providing generic advice that lacks human empathy and situational awareness."
+What is the risk of using AI for 'brainstorming' without human intervention?,The output may be generic or lack the unique 'human touch' and specific organizational nuance.
+"An effective prompt must be clear, concise, and _____.",Specific.
+Which type of AI is used to predict credit card fraud based on historical spending patterns?,Traditional AI.
+What 'Super Power' is described as essential for the modern professional career?,Prompt Engineering.
+Generative AI is compared to which past essential workplace tools?,Email and spreadsheets.
+"When using AI for research, what is the 'Master this once, apply it everywhere' skill?",Effective prompt engineering principles.
+A prompt asking for 'a 200-word professional email' is applying which prompt anatomy component?,Specific Task and Constraints.
+Why is it better to appreciate AI's good steps before asking for changes?,It helps maintain the quality and direction of the interaction within that specific session.
+Traditional AI excel at tasks where patterns are _____ and outcomes are _____.,Clear; predictable.
+What is the danger of AI-generated 'biographies' for non-existent people?,The AI will confidently 'hallucinate' a detailed life story that sounds true but is entirely false.
+How can AI help a teacher in a classroom setting?,"By generating quizzes, assignments, and mapped cognitive level questions in seconds."
+Term: Data Synthesization,Definition: The AI's ability to combine information from multiple resources into a single summarized response.
