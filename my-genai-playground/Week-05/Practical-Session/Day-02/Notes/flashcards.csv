@@ -1,0 +1,50 @@
+What is the primary difference between a Large Language Model (LLM) and an AI Agent?,"LLMs primarily generate text (think), while AI Agents can perform actions and interact with environments (do)."
+"In the context of Agentic AI, what does 'autonomy' refer to?",The system's ability to plan and execute tasks to achieve a goal without constant human intervention.
+What are the four core components of the agentic loop described in the training?,"Goal, Plan, Act, and Observe."
+"In the milkshake analogy, what represents the 'Act' phase of an AI agent?",Moving to the kitchen and physically collecting ingredients or using tools like a blender.
+"In the milkshake analogy, what constitutes the 'Observation' phase?",Checking if ingredients are available in the fridge or tasting the final product to see if it needs more sugar.
+What is the role of an LLM within an AI Agent architecture?,"The LLM serves as the 'brain' responsible for reasoning, planning, and decision-making."
+How does 'Multi-Step Reasoning' differ from traditional AI processing?,"It involves a continuous loop of planning, acting, and reflecting until a specific goal is achieved."
+Define 'Tools' in the context of AI Agents.,"External capabilities provided to an agent, such as web search, code execution, or API access, to interact with the world."
+What is 'Short-term Memory' for an AI Agent?,The context or chat history maintained during a single session to track immediate interactions.
+What is 'Long-term Memory' for an AI Agent?,"External storage, like vector databases or files, where information is persisted across different sessions."
+Which AI framework is specifically highlighted for role-based multi-agent orchestration?,CrewAI
+How does a 'Multi-Agent System' achieve 'Parallel Thinking'?,By assigning different sub-tasks to multiple agents that work simultaneously to reach a collective goal.
+What is 'Role Specialization' in a multi-agent environment?,"Assigning specific personas or tasks to individual agents, such as a 'Researcher' agent and a 'Writer' agent."
+"The framework described as a specialized extension of LangChain for building stateful, multi-agent flows is _____.",LangGraph
+"In LangGraph, what is the purpose of a 'Node'?","A node represents a specific function or a step in the agent's workflow, such as calling an LLM or a tool."
+"In LangGraph, what do 'Edges' define?",The pathways or transitions that determine the sequence of movement between different nodes.
+What is a 'Conditional Edge' in the context of an agent's workflow?,A routing mechanism that decides which node to visit next based on the output of the current node.
+What does the 'State' represent in a LangGraph workflow?,"A shared 'notebook' or memory that tracks chat history, tool outputs, and model responses throughout the process."
+How is a tool 'bound' to an LLM in the implementation code?,By using the `.bind_tools()` method on the LLM object and passing a list of tool functions.
+What is the function of a 'Tool Node' in an agentic graph?,It acts as a specialized node that executes the specific external tools requested by the LLM.
+Why is the output of a tool usually sent back to the LLM ('Chat Node') before reaching the user?,To allow the LLM to process and 'beautify' raw data (like JSON) into a human-readable format.
+What is the 'DuckDuckGoSearchRun' tool used for in the session's demonstration?,To provide the agent with live web search capabilities to overcome LLM knowledge cutoff dates.
+"In the financial agent example, which API was used to fetch real-time stock prices?",Alpha Vantage
+What is the benefit of 'Modular Design' in multi-agent systems?,It allows developers to debug or update specific agent roles without affecting the entire system's logic.
+Term: Perception-Action Loop,"Definition: The continuous cycle where an agent perceives its environment, takes an action, and then perceives the results to plan the next move."
+What is the purpose of the `StateGraph` object in LangGraph?,It serves as the empty structure or 'brain' where nodes and edges are added to define the agent's behavior.
+Why might a developer choose a code-based agent framework over a no-code platform?,Code-based frameworks offer complete control and better modification capabilities for complex systems.
+"In the LangGraph implementation, what does the `START` and `END` indicator represent?",The entry point where the user query begins and the exit point where the final response is delivered.
+What Gradio component was used to create the user interface for the AI Agent on Hugging Face?,ChatInterface
+"In the demonstration, how did the agent calculate the cost of 50 Apple shares?","It first called the stock price tool to get the current rate, then called a calculator tool to multiply that rate by 50."
+What is the main limitation of a 'Stateless' LLM compared to an Agent?,A stateless LLM treats every query as a new interaction and cannot autonomously use external tools to fulfill a multi-step request.
+Which Python decorator is used in LangChain to transform a standard function into an agent tool?,@tool
+What is the specific role of the 'Orchestration' layer in AI Agent architecture?,"It manages the flow of information between the user, the LLM brain, memory, and tools."
+Why is 'Self-Correction' considered a feature of Agentic AI?,The agent can observe its own errors or failed tool calls and attempt a different approach to solve the problem.
+Concept: Master Agent,Definition: A high-level agent that receives a user task and delegates sub-tasks to other specialized 'worker' agents.
+What is the significance of the 'Knowledge Cutoff Date' for standard LLMs?,It means the model cannot provide information on events or data that occurred after its training ended without external tools.
+"In LangGraph, how does the system 'remember' the conversation history between node transitions?",The conversation history is stored and updated within the shared 'State' object passed between nodes.
+What is 'Scalability' in the context of multi-agent systems?,The ability to handle increasingly complex problems by simply adding more specialized agents to the team.
+"In the provided code, what does `user_data.get()` do?",It securely retrieves API keys or secrets stored in the Google Colab environment.
+"When deploying an agent to Hugging Face, what file is typically used to list the necessary Python libraries?",requirements.txt
+What is the 'Reflection' step in an agentic workflow?,A process where the agent evaluates its progress toward the goal and determines if further actions are needed.
+Why is 'Reasoning' essential before an AI Agent takes an 'Action'?,To ensure the agent selects the most relevant tool and parameters based on the specific intent of the user's query.
+How does a 'Researcher' agent and a 'Writer' agent interact in a multi-agent system?,"The Researcher gathers raw data from tools, and the Writer consumes that data to create a structured report."
+"In LangGraph, what command is used to finalize the graph and make it ready for execution?",`.compile()`
+The process of an agent deciding which tool to call based on the prompt is often called _____.,Tool Calling (or Tool Invocation)
+What represents the 'Environment' in the milkshake analogy?,"The physical space (kitchen, market) where the actions and observations take place."
+"In the demonstration, what happened when the LLM was asked for a stock price but only had the base model (no tools)?",The model admitted it could not provide live data because it lacked access to real-time APIs.
+What is 'Stateful' interaction in AI agents?,An interaction where the system maintains the context and data results from previous steps to inform future decisions.
+Which framework is mentioned as an alternative to LangGraph for building autonomous agents?,AutoGPT
+What is the primary role of the 'Manager' in the 'Manager-Worker' multi-agent pattern?,"To coordinate the outputs of various worker agents and present a single, cohesive final result to the user."
