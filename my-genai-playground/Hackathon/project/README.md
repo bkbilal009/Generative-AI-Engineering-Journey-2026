@@ -1,15 +1,4 @@
 
----
-title: AuraPath AI
-emoji: 🚀
-colorFrom: blue
-colorTo: cyan
-sdk: gradio
-app_file: app.py
-pinned: false
-license: mit
-short_description: Multi-modal Strategic Career Architect for Career Planning & Resilience.
----
 
 # 🚀 AuraPath AI: The Strategic Career Architect
 
